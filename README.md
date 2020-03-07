@@ -660,3 +660,5 @@ The right panel shows forecasts made on latest data for the forthcoming 7 days.
 
 <img src="./figures/forecast_arima_maxhorizon_7_vatican_city__expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_vatican_city_.png" width="425"/>
 <em>vatican_city - </em>
+
+
