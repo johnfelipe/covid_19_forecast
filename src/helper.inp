@@ -7,7 +7,7 @@ function string filename_forecast_plot (const string country,
     string expost = ""
     expost = (is_expost > 0) ? "_expost" : expost
 
-    return sprintf("forecast_arima_maxhorizon_%d_%s_%s%s", \
+    return sprintf("forecast_maxhorizon_%d_%s_%s%s", \
       MAX_HORIZON, country, province, expost)
 end function
 
