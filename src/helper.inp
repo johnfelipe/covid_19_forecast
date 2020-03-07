@@ -174,7 +174,7 @@ function list arima_forecast (const series y,
 end function
 
 
-function list mean_forecast (const series y,
+function list historical_avg_forecast (const series y,
                              const int MAX_HORIZON[1::],
                              string *model_properties)
     /* If the endogenous has no variance over the training set,
@@ -216,7 +216,7 @@ function list do_forecast (const series y,
     endif
 
     # Check whether the target variable has zero variance over the training set
-    list FC = mean_forecast(y, MAX_HORIZON, &model_properties)
+    list FC = historical_avg_forecast(y, MAX_HORIZON, &model_properties)
 
     # ARIMA type
     if nelem(FC) == 0
