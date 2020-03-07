@@ -110,7 +110,7 @@ loop i=min(unit)..max(unit) --quiet
     else
         # Expost analysis + plot multistep interval forecasts
         string model_properties = ""
-        list FC = arima_forecast(confirmed_cases, , \
+        list FC = do_forecast(confirmed_cases, , \
           ARIMA_P, ARIMA_D, ARIMA_Q, MAX_HORIZON, &model_properties)
 
         if nelem(FC) == 0
@@ -128,7 +128,7 @@ loop i=min(unit)..max(unit) --quiet
             string filename = sprintf("./figures/%s.%s", \
               filename_forecast_plot(country_name, province_name, MAX_HORIZON, 1), SAVE_PLOT_AS)
 
-            plot_arima_forecast(confirmed_cases, fc_point, fc_se, title, filename)
+            plot_forecast(confirmed_cases, fc_point, fc_se, title, filename)
         endif
 
     endif
@@ -164,7 +164,7 @@ loop i=min(unit)..max(unit) --quiet
     else
         # Out-of-sample analysis + plot multistep  interval forecasts
         string model_properties = ""
-        list FC = arima_forecast(confirmed_cases, , \
+        list FC = do_forecast(confirmed_cases, , \
           ARIMA_P, ARIMA_D, ARIMA_Q, MAX_HORIZON, &model_properties)
 
         if nelem(FC) == 0
@@ -181,7 +181,7 @@ loop i=min(unit)..max(unit) --quiet
             string filename = sprintf("./figures/%s.%s", \
               filename_forecast_plot(country_name, province_name, MAX_HORIZON, 0), SAVE_PLOT_AS)
 
-            plot_arima_forecast(confirmed_cases, fc_point, fc_se, title, filename)
+            plot_forecast(confirmed_cases, fc_point, fc_se, title, filename)
             
             countries_ok += sprintf("%s", country_name)
             provinces_ok += sprintf("%s", province_name)

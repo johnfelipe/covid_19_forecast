@@ -31,7 +31,7 @@ function string compile_markdown_plot_cmd (const string folder "Folder where plo
         string pic1 = filename_forecast_plot(countries[i], provinces[i], MAX_HORIZON, 1)
         string pic2 = filename_forecast_plot(countries[i], provinces[i], MAX_HORIZON, 0)
         markdown_cmd += sprintf("<img src=\"%s/%s.%s\" width=\"425\"/> <img src=\"%s/%s.%s\" width=\"425\"/>\n", \
-        folder, pic1, FILE_FORMAT, folder, pic2, FILE_FORMAT)
+          folder, pic1, FILE_FORMAT, folder, pic2, FILE_FORMAT)
         markdown_cmd += sprintf("<em>%s - %s</em>\n\n", countries[i], provinces[i])
     endloop
 
@@ -116,8 +116,36 @@ function string aggregate_data_and_store_csv (const list data_values)
     return filename
 end function
 
+
+function list meanmodel_forecast (const series y,
+                                  const list xlist,
+                                  const int MAX_HORIZON[1::],
+                                  string *model_properties)
+    /* Estimate simple mean model plus optional exogenous
+    and forecast out-of-sample. */
+
+    list FC = null
+    model_properties = sprintf("conditional mean model")
+    smpl ; -MAX_HORIZON
+    
+    catch ols y const xlist --quiet
+    if $error
+        printf "\nError: Failed to estimate %s.\n", model_properties
+        return FC
+    endif
+
+    catch fcast --out-of-sample --quiet
+    smpl full
+    series fc_point = $fcast
+    series fc_se = $fcse
+    list FC = y fc_point fc_se
+
+    return FC
+end function
+
+
 function list arima_forecast (const series y,
-                              const list xlist[null],
+                              const list xlist,
                               const int p[0::],
                               const int d[0::],
                               const int q[0::],
@@ -126,47 +154,68 @@ function list arima_forecast (const series y,
     /* Estimate arima type of model and forecast
     out-of-sample. */
 
-    list L = null
+    list FC = null
+    model_properties = sprintf("ARIMA(%d,%d,%d)", p, d, q)
+    smpl ; -MAX_HORIZON
+
+    catch arima p d q; y xlist --quiet
+    if $error
+        printf "\nError: Failed to estimate %s.\n", model_properties
+        return FC
+    endif
+
+    catch fcast --out-of-sample --dynamic --quiet
+    smpl full
+    series fc_point = $fcast
+    series fc_se = $fcse
+    list FC = y fc_point fc_se
+
+    return FC
+end function
+
+
+function list do_forecast (const series y,
+                           const list xlist[null],
+                           const int p[0::],
+                           const int d[0::],
+                           const int q[0::],
+                           const int MAX_HORIZON[1::],
+                           string *model_properties)
+    /* Set training and test set, estimate model and compute
+    interval forecasts. We will try another (simpler model) in
+    case the former has failed being computed (for instance due
+    to convergence failure). */
+
+    list FC = null
     scalar error = 0
-    
+    string model_properties = ""
     if !exists(xlist)
         list xlist = null
     endif
 
-    smpl ; -MAX_HORIZON
-    catch arima p d q; y xlist --quiet
-    error = $error
-    string model_properties = sprintf("ARIMA(%d,%d,%d)", p, d, q)
-    if error
-        catch arima 1 1 0 ; y xlist --quiet
-        error = $error
-        string model_properties = "ARIMA(1,1,0)"
-        if error
-            catch arima 0 1 0 ; y xlist --quiet
-            error = $error
-            string model_properties = "ARIMA(0,1,0)"
-        endif
+    # Try ARIMA type of model first
+    list FC = arima_forecast(y, xlist, p, d, q, MAX_HORIZON, &model_properties)
+    if nelem(FC) == 0
+        list FC = arima_forecast(y, xlist, 1, 1, 0, MAX_HORIZON, &model_properties)
     endif
-    if error
-        return L
+    if nelem(FC) == 0
+        list FC = arima_forecast(y, xlist, 0, 1, 0, MAX_HORIZON, &model_properties)
+    endif   
+
+    # Return simple mean model
+    if nelem(FC) == 0
+        list FC = meanmodel_forecast(y, xlist, MAX_HORIZON, &model_properties)
     endif
 
-    # Plot multistep  interval forecasts
-    fcast --out-of-sample --dynamic --quiet
-    smpl full
-    series fc_point = $fcast
-    series fc_se = $fcse
-    list L = y fc_point fc_se
-
-    return L
+    return FC
 end function
 
 
-function void plot_arima_forecast (const series y,
-                                   const series fc_point,
-                                   const series fc_se,
-                                   const string title,
-                                   const string filename "Full path or 'display'")
+function void plot_forecast (const series y,
+                                const series fc_point,
+                                const series fc_se,
+                                const string title,
+                                const string filename "Full path or 'display'")
     list L = y fc_point
     string vname = sprintf("%s", argname(y))
     setinfo y --graph-name=@vname

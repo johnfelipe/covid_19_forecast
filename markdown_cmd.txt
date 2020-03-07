@@ -196,9 +196,6 @@
 <img src="./figures/forecast_arima_maxhorizon_7_australia_south_australia_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_australia_south_australia.png" width="425"/>
 <em>australia - south_australia</em>
 
-<img src="./figures/forecast_arima_maxhorizon_7_us_boston_ma_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_boston_ma.png" width="425"/>
-<em>us - boston_ma</em>
-
 <img src="./figures/forecast_arima_maxhorizon_7_us_san_benito_ca_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_san_benito_ca.png" width="425"/>
 <em>us - san_benito_ca</em>
 
@@ -397,9 +394,6 @@
 <img src="./figures/forecast_arima_maxhorizon_7_us_hillsborough_fl_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_hillsborough_fl.png" width="425"/>
 <em>us - hillsborough_fl</em>
 
-<img src="./figures/forecast_arima_maxhorizon_7_us_new_york_city_ny_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_new_york_city_ny.png" width="425"/>
-<em>us - new_york_city_ny</em>
-
 <img src="./figures/forecast_arima_maxhorizon_7_us_placer_county_ca_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_placer_county_ca.png" width="425"/>
 <em>us - placer_county_ca</em>
 
@@ -507,9 +501,6 @@
 
 <img src="./figures/forecast_arima_maxhorizon_7_us_grant_county_wa_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_grant_county_wa.png" width="425"/>
 <em>us - grant_county_wa</em>
-
-<img src="./figures/forecast_arima_maxhorizon_7_us_queens_county_ny_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_queens_county_ny.png" width="425"/>
-<em>us - queens_county_ny</em>
 
 <img src="./figures/forecast_arima_maxhorizon_7_us_santa_rosa_county_fl_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_santa_rosa_county_fl.png" width="425"/>
 <em>us - santa_rosa_county_fl</em>
