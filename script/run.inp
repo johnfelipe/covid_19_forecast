@@ -95,7 +95,8 @@ loop i=min(unit)..max(unit) --quiet
     smpl unit == $i && ok(confirmed_cases) --restrict
     setobs 7 @INITIAL_DATE --time-series
 
-    string country_name = strvals(country)[values(country)]
+    string country_name = strvals(country)[values(country)] 
+
     if sum(ok(province))	# for some countries data on province level not available
         string province_name = strvals(province)[values(province)]
     else
