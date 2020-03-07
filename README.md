@@ -262,9 +262,6 @@ The right panel shows forecasts made on latest data for the forthcoming 7 days.
 <img src="./figures/forecast_arima_maxhorizon_7_australia_south_australia_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_australia_south_australia.png" width="425"/>
 <em>australia - south_australia</em>
 
-<img src="./figures/forecast_arima_maxhorizon_7_us_boston_ma_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_boston_ma.png" width="425"/>
-<em>us - boston_ma</em>
-
 <img src="./figures/forecast_arima_maxhorizon_7_us_san_benito_ca_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_san_benito_ca.png" width="425"/>
 <em>us - san_benito_ca</em>
 
@@ -463,9 +460,6 @@ The right panel shows forecasts made on latest data for the forthcoming 7 days.
 <img src="./figures/forecast_arima_maxhorizon_7_us_hillsborough_fl_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_hillsborough_fl.png" width="425"/>
 <em>us - hillsborough_fl</em>
 
-<img src="./figures/forecast_arima_maxhorizon_7_us_new_york_city_ny_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_new_york_city_ny.png" width="425"/>
-<em>us - new_york_city_ny</em>
-
 <img src="./figures/forecast_arima_maxhorizon_7_us_placer_county_ca_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_placer_county_ca.png" width="425"/>
 <em>us - placer_county_ca</em>
 
@@ -574,11 +568,95 @@ The right panel shows forecasts made on latest data for the forthcoming 7 days.
 <img src="./figures/forecast_arima_maxhorizon_7_us_grant_county_wa_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_grant_county_wa.png" width="425"/>
 <em>us - grant_county_wa</em>
 
-<img src="./figures/forecast_arima_maxhorizon_7_us_queens_county_ny_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_queens_county_ny.png" width="425"/>
-<em>us - queens_county_ny</em>
-
 <img src="./figures/forecast_arima_maxhorizon_7_us_santa_rosa_county_fl_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_santa_rosa_county_fl.png" width="425"/>
 <em>us - santa_rosa_county_fl</em>
 
 <img src="./figures/forecast_arima_maxhorizon_7_us_williamson_county_tn_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_williamson_county_tn.png" width="425"/>
 <em>us - williamson_county_tn</em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_us_new_york_county_ny_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_new_york_county_ny.png" width="425"/>
+<em>us - new_york_county_ny</em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_us_unassigned_location_wa_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_unassigned_location_wa.png" width="425"/>
+<em>us - unassigned_location_wa</em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_us_montgomery_county_md_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_montgomery_county_md.png" width="425"/>
+<em>us - montgomery_county_md</em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_us_suffolk_county_ma_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_suffolk_county_ma.png" width="425"/>
+<em>us - suffolk_county_ma</em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_us_denver_county_co_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_denver_county_co.png" width="425"/>
+<em>us - denver_county_co</em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_us_summit_county_co_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_summit_county_co.png" width="425"/>
+<em>us - summit_county_co</em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_bhutan__expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_bhutan_.png" width="425"/>
+<em>bhutan - </em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_cameroon__expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_cameroon_.png" width="425"/>
+<em>cameroon - </em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_canada_calgary_alberta_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_canada_calgary_alberta.png" width="425"/>
+<em>canada - calgary_alberta</em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_colombia__expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_colombia_.png" width="425"/>
+<em>colombia - </em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_costa_rica__expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_costa_rica_.png" width="425"/>
+<em>costa_rica - </em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_peru__expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_peru_.png" width="425"/>
+<em>peru - </em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_serbia__expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_serbia_.png" width="425"/>
+<em>serbia - </em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_slovakia__expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_slovakia_.png" width="425"/>
+<em>slovakia - </em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_togo__expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_togo_.png" width="425"/>
+<em>togo - </em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_us_chatham_county_nc_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_chatham_county_nc.png" width="425"/>
+<em>us - chatham_county_nc</em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_us_delaware_county_pa_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_delaware_county_pa.png" width="425"/>
+<em>us - delaware_county_pa</em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_us_douglas_county_ne_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_douglas_county_ne.png" width="425"/>
+<em>us - douglas_county_ne</em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_us_fayette_county_ky_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_fayette_county_ky.png" width="425"/>
+<em>us - fayette_county_ky</em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_us_floyd_county_ga_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_floyd_county_ga.png" width="425"/>
+<em>us - floyd_county_ga</em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_us_marion_county_in_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_marion_county_in.png" width="425"/>
+<em>us - marion_county_in</em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_us_middlesex_county_ma_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_middlesex_county_ma.png" width="425"/>
+<em>us - middlesex_county_ma</em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_us_nassau_county_ny_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_nassau_county_ny.png" width="425"/>
+<em>us - nassau_county_ny</em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_us_norwell_county_ma_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_norwell_county_ma.png" width="425"/>
+<em>us - norwell_county_ma</em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_us_ramsey_county_mn_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_ramsey_county_mn.png" width="425"/>
+<em>us - ramsey_county_mn</em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_us_washoe_county_nv_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_washoe_county_nv.png" width="425"/>
+<em>us - washoe_county_nv</em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_us_wayne_county_pa_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_wayne_county_pa.png" width="425"/>
+<em>us - wayne_county_pa</em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_us_yolo_county_ca_expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_us_yolo_county_ca.png" width="425"/>
+<em>us - yolo_county_ca</em>
+
+<img src="./figures/forecast_arima_maxhorizon_7_vatican_city__expost.png" width="425"/> <img src="./figures/forecast_arima_maxhorizon_7_vatican_city_.png" width="425"/>
+<em>vatican_city - </em>
