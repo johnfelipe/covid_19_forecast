@@ -12,8 +12,8 @@ https://github.com/CSSEGISandData/COVID-19
 ## Some words on the underlying model
 I want to keep it simple. If you fancy, you can use the current state of code as a starting point for devloping and evaluating more complex approaches. However, the ARIMA type of model applied may already provide a reasonable approach for modelling and computing short-term contagion dynamics. *Gretl's* built-in ```arima``` command is used for this.
 
-The default model is an ARIMA(2,1,1) specification (every textbook covering time-seres has a chapter on this traditional approach).
-In case the maximum-likelihood estimator does not converge, an ARIMA(1,1,0) will be estimated. If this specification also fails to converge a simple ARIMA(0,1,0) will be tried.
+The default model is an ARIMA(1,2,0) specification (every textbook covering time-seres has a chapter on this traditional approach). We've choosen twice differencing in order to capture the exponential trend visibile in many countries during the high-time period.
+In case the maximum-likelihood estimator does not converge, an ARIMA(0,2,0) will be estimated. If this specification also fails to converge a simple ARIMA(0,1,0) will be tried. For countries showing no contagion dynamics (yet), we simly interpolate the historic average.
 
 ## Forecasting method
 We compute out-of-sample multi-period interval forecasts. The multi-period forecast is recursively computed. Per default the 90 % forecast (Gaussian) interval will be shown as well.
@@ -31,9 +31,9 @@ scalar RUN_EXPOST_ANALYSIS = 0				# run expost forecasting exercise, by going 'M
 scalar COMPILE_MARKDOWN_CMD = 1				# compile markdown command for inserting forecasting plots to README.md
 
 # ARIMA model settings
-scalar ARIMA_P = 2					# autoregressive (AR) order
-scalar ARIMA_D = 1					# differencing order
-scalar ARIMA_Q = 1					# moving average (MA) order
+scalar ARIMA_P = 1					# autoregressive (AR) order
+scalar ARIMA_D = 2					# differencing order
+scalar ARIMA_Q = 0					# moving average (MA) order
 ```
 
 This script will also load the functions doing the main stuff in the beckground which are stored in ```./src/helper.inp```.
