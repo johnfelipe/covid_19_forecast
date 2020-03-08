@@ -8,13 +8,14 @@ string DATA_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/mas
 string INITIAL_DATE = "2020-01-22"			# 1st available observation of CSSE dataset
 scalar MAX_HORIZON = 7						# multi-step OoS forecast horizon
 string SAVE_PLOT_AS = "png"					# grpahic format: "png", "pdf"", eps"
-scalar COMPILE_MARKDOWN_CMD = 1				# compile markdown command for inserting forecasting plots to README.md
-
 
 # ARIMA model settings
 scalar ARIMA_P = 2					# autoregressive (AR) order
-scalar ARIMA_D = 1					# differencing order
-scalar ARIMA_Q = 1					# moving average (MA) order
+scalar ARIMA_D = 2 					# differencing order
+scalar ARIMA_Q = 0					# moving average (MA) order
+
+# not relevant for forecasting!
+scalar COMPILE_MARKDOWN_CMD = 1				# compile markdown command for inserting forecasting plots to README.md
 #===================
 
 if DIR_WORK != ""
@@ -127,7 +128,6 @@ loop i=min(unit)..max(unit) --quiet
 
         plot_forecast(confirmed_cases, fc_point, fc_se, title, filename)
     endif
-
 endloop
 smpl full
 
