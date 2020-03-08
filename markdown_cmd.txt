@@ -109,9 +109,6 @@
 <img src="./figures/forecast_maxhorizon_7_us_cook_county_il_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_cook_county_il.png" width="425"/>
 <em>us - cook_county_il</em>
 
-<img src="./figures/forecast_maxhorizon_7_us_tempe_az_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_tempe_az.png" width="425"/>
-<em>us - tempe_az</em>
-
 <img src="./figures/forecast_maxhorizon_7_macau_macau_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_macau_macau.png" width="425"/>
 <em>macau - macau</em>
 
@@ -186,9 +183,6 @@
 
 <img src="./figures/forecast_maxhorizon_7_sweden__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_sweden_.png" width="425"/>
 <em>sweden - </em>
-
-<img src="./figures/forecast_maxhorizon_7_us_santa_clara_ca_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_santa_clara_ca.png" width="425"/>
-<em>us - santa_clara_ca</em>
 
 <img src="./figures/forecast_maxhorizon_7_spain__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_spain_.png" width="425"/>
 <em>spain - </em>
@@ -361,9 +355,6 @@
 <img src="./figures/forecast_maxhorizon_7_dominican_republic__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_dominican_republic_.png" width="425"/>
 <em>dominican_republic - </em>
 
-<img src="./figures/forecast_maxhorizon_7_us_providence_ri_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_providence_ri.png" width="425"/>
-<em>us - providence_ri</em>
-
 <img src="./figures/forecast_maxhorizon_7_indonesia__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_indonesia_.png" width="425"/>
 <em>indonesia - </em>
 
@@ -426,9 +417,6 @@
 
 <img src="./figures/forecast_maxhorizon_7_us_norfolk_county_ma_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_norfolk_county_ma.png" width="425"/>
 <em>us - norfolk_county_ma</em>
-
-<img src="./figures/forecast_maxhorizon_7_us_berkeley_ca_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_berkeley_ca.png" width="425"/>
-<em>us - berkeley_ca</em>
 
 <img src="./figures/forecast_maxhorizon_7_us_maricopa_county_az_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_maricopa_county_az.png" width="425"/>
 <em>us - maricopa_county_az</em>
@@ -577,9 +565,6 @@
 <img src="./figures/forecast_maxhorizon_7_us_nassau_county_ny_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_nassau_county_ny.png" width="425"/>
 <em>us - nassau_county_ny</em>
 
-<img src="./figures/forecast_maxhorizon_7_us_norwell_county_ma_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_norwell_county_ma.png" width="425"/>
-<em>us - norwell_county_ma</em>
-
 <img src="./figures/forecast_maxhorizon_7_us_ramsey_county_mn_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_ramsey_county_mn.png" width="425"/>
 <em>us - ramsey_county_mn</em>
 
@@ -594,5 +579,98 @@
 
 <img src="./figures/forecast_maxhorizon_7_vatican_city__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_vatican_city_.png" width="425"/>
 <em>vatican_city - </em>
+
+<img src="./figures/forecast_maxhorizon_7_us_santa_clara_county_ca_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_santa_clara_county_ca.png" width="425"/>
+<em>us - santa_clara_county_ca</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_grand_princess_cruise_ship_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_grand_princess_cruise_ship.png" width="425"/>
+<em>us - grand_princess_cruise_ship</em>
+
+<img src="./figures/forecast_maxhorizon_7_french_guiana__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_french_guiana_.png" width="425"/>
+<em>french_guiana - </em>
+
+<img src="./figures/forecast_maxhorizon_7_malta__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_malta_.png" width="425"/>
+<em>malta - </em>
+
+<img src="./figures/forecast_maxhorizon_7_us_douglas_county_co_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_douglas_county_co.png" width="425"/>
+<em>us - douglas_county_co</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_providence_county_ri_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_providence_county_ri.png" width="425"/>
+<em>us - providence_county_ri</em>
+
+<img src="./figures/forecast_maxhorizon_7_martinique__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_martinique_.png" width="425"/>
+<em>martinique - </em>
+
+<img src="./figures/forecast_maxhorizon_7_us_alameda_county_ca_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_alameda_county_ca.png" width="425"/>
+<em>us - alameda_county_ca</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_broward_county_fl_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_broward_county_fl.png" width="425"/>
+<em>us - broward_county_fl</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_fairfield_county_ct_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_fairfield_county_ct.png" width="425"/>
+<em>us - fairfield_county_ct</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_lee_county_fl_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_lee_county_fl.png" width="425"/>
+<em>us - lee_county_fl</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_pinal_county_az_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_pinal_county_az.png" width="425"/>
+<em>us - pinal_county_az</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_rockland_county_ny_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_rockland_county_ny.png" width="425"/>
+<em>us - rockland_county_ny</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_saratoga_county_ny_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_saratoga_county_ny.png" width="425"/>
+<em>us - saratoga_county_ny</em>
+
+<img src="./figures/forecast_maxhorizon_7_canada_edmonton_alberta_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_canada_edmonton_alberta.png" width="425"/>
+<em>canada - edmonton_alberta</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_charleston_county_sc_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_charleston_county_sc.png" width="425"/>
+<em>us - charleston_county_sc</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_clark_county_wa_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_clark_county_wa.png" width="425"/>
+<em>us - clark_county_wa</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_cobb_county_ga_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_cobb_county_ga.png" width="425"/>
+<em>us - cobb_county_ga</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_davis_county_ut_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_davis_county_ut.png" width="425"/>
+<em>us - davis_county_ut</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_el_paso_county_co_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_el_paso_county_co.png" width="425"/>
+<em>us - el_paso_county_co</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_honolulu_county_hi_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_honolulu_county_hi.png" width="425"/>
+<em>us - honolulu_county_hi</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_jackson_county_or_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_jackson_county_or.png" width="425"/>
+<em>us - jackson_county_or</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_jefferson_county_wa_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_jefferson_county_wa.png" width="425"/>
+<em>us - jefferson_county_wa</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_kershaw_county_sc_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_kershaw_county_sc.png" width="425"/>
+<em>us - kershaw_county_sc</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_klamath_county_or_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_klamath_county_or.png" width="425"/>
+<em>us - klamath_county_or</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_madera_county_ca_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_madera_county_ca.png" width="425"/>
+<em>us - madera_county_ca</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_pierce_county_wa_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_pierce_county_wa.png" width="425"/>
+<em>us - pierce_county_wa</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_plymouth_county_ma_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_plymouth_county_ma.png" width="425"/>
+<em>us - plymouth_county_ma</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_santa_cruz_county_ca_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_santa_cruz_county_ca.png" width="425"/>
+<em>us - santa_cruz_county_ca</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_tulsa_county_ok_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_tulsa_county_ok.png" width="425"/>
+<em>us - tulsa_county_ok</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_montgomery_county_tx_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_montgomery_county_tx.png" width="425"/>
+<em>us - montgomery_county_tx</em>
 
 
