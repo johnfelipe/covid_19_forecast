@@ -10,7 +10,7 @@ scalar MAX_HORIZON = 7						# multi-step OoS forecast horizon
 string SAVE_PLOT_AS = "png"					# grpahic format: "png", "pdf"", eps"
 
 # ARIMA model settings
-scalar ARIMA_P = 2					# autoregressive (AR) order
+scalar ARIMA_P = 1					# autoregressive (AR) order
 scalar ARIMA_D = 2 					# differencing order
 scalar ARIMA_Q = 0					# moving average (MA) order
 

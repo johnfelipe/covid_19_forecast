@@ -223,7 +223,7 @@ function list do_forecast (const series y,
         list FC = arima_forecast(y, xlist, p, d, q, MAX_HORIZON, &model_properties)
     endif
     if nelem(FC) == 0
-        list FC = arima_forecast(y, xlist, 2, 1, q, MAX_HORIZON, &model_properties)
+        list FC = arima_forecast(y, xlist, 0, 2, q, MAX_HORIZON, &model_properties)
     endif    
     if nelem(FC) == 0
         list FC = arima_forecast(y, xlist, 1, 1, 0, MAX_HORIZON, &model_properties)
