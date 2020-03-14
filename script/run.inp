@@ -104,7 +104,7 @@ loop i=min(unit)..max(unit) --quiet
     else
         string province_name = ""
     endif
-    if confirmed_cases[$tmax] < MINIMUM_CASES
+    if confirmed_cases[$tmax - MAX_HORIZON] < MINIMUM_CASES
         printf "Country '%s' and province '%s' has\n\
           currently less than %d confirmed cases.\n", country_name, province_name, MINIMUM_CASES
     else
@@ -137,6 +137,7 @@ loop i=min(unit)..max(unit) --quiet
 endloop
 smpl full
 
+
 # Out-of-sample for the forthcoming days for each country-province combination
 #=============================================================================
 smpl full
@@ -155,7 +156,7 @@ loop i=min(unit)..max(unit) --quiet
         string province_name = ""
     endif
 
-    if confirmed_cases[$tmax] < MINIMUM_CASES
+    if confirmed_cases[$tmax-MAX_HORIZON] < MINIMUM_CASES
         printf "Country '%s' and province '%s' has\n\
           currently less than %d confirmed cases.\n", country_name, province_name, MINIMUM_CASES
     else
@@ -187,7 +188,6 @@ loop i=min(unit)..max(unit) --quiet
             provinces_ok += sprintf("%s", province_name)
         endif
     endif
-
 endloop
 
 
