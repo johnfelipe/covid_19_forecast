@@ -579,9 +579,6 @@ The right panel shows forecasts made on latest data for the forthcoming 7 days.
 <img src="./figures/forecast_maxhorizon_7_china_heilongjiang_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_china_heilongjiang.png" width="425"/>
 <em>china - heilongjiang</em>
 
-<img src="./figures/forecast_maxhorizon_7_united_kingdom_uk_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_united_kingdom_uk.png" width="425"/>
-<em>united_kingdom - uk</em>
-
 <img src="./figures/forecast_maxhorizon_7_denmark_denmark_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_denmark_denmark.png" width="425"/>
 <em>denmark - denmark</em>
 
@@ -1280,3 +1277,53 @@ The right panel shows forecasts made on latest data for the forthcoming 7 days.
 
 <img src="./figures/forecast_maxhorizon_7_guyana__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_guyana_.png" width="425"/>
 <em>guyana - </em>
+
+<img src="./figures/forecast_maxhorizon_7_australia_australian_capital_territory_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_australia_australian_capital_territory.png" width="425"/>
+<em>australia - australian_capital_territory</em>
+
+<img src="./figures/forecast_maxhorizon_7_united_kingdom_united_kingdom_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_united_kingdom_united_kingdom.png" width="425"/>
+<em>united_kingdom - united_kingdom</em>
+
+<img src="./figures/forecast_maxhorizon_7_kazakhstan__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_kazakhstan_.png" width="425"/>
+<em>kazakhstan - </em>
+
+<img src="./figures/forecast_maxhorizon_7_france_french_polynesia_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_france_french_polynesia.png" width="425"/>
+<em>france - french_polynesia</em>
+
+<img src="./figures/forecast_maxhorizon_7_cayman_islands__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_cayman_islands_.png" width="425"/>
+<em>cayman_islands - </em>
+
+<img src="./figures/forecast_maxhorizon_7_guadeloupe__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_guadeloupe_.png" width="425"/>
+<em>guadeloupe - </em>
+
+<img src="./figures/forecast_maxhorizon_7_canada_manitoba_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_canada_manitoba.png" width="425"/>
+<em>canada - manitoba</em>
+
+<img src="./figures/forecast_maxhorizon_7_canada_saskatchewan_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_canada_saskatchewan.png" width="425"/>
+<em>canada - saskatchewan</em>
+
+<img src="./figures/forecast_maxhorizon_7_ethiopia__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_ethiopia_.png" width="425"/>
+<em>ethiopia - </em>
+
+<img src="./figures/forecast_maxhorizon_7_sudan__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_sudan_.png" width="425"/>
+<em>sudan - </em>
+
+<img src="./figures/forecast_maxhorizon_7_guinea__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_guinea_.png" width="425"/>
+<em>guinea - </em>
+
+<img src="./figures/forecast_maxhorizon_7_aruba__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_aruba_.png" width="425"/>
+<em>aruba - </em>
+
+<img src="./figures/forecast_maxhorizon_7_canada_grand_princess_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_canada_grand_princess.png" width="425"/>
+<em>canada - grand_princess</em>
+
+<img src="./figures/forecast_maxhorizon_7_kenya__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_kenya_.png" width="425"/>
+<em>kenya - </em>
+
+<img src="./figures/forecast_maxhorizon_7_antigua_and_barbuda__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_antigua_and_barbuda_.png" width="425"/>
+<em>antigua_and_barbuda - </em>
+
+<img src="./figures/forecast_maxhorizon_7_us_alabama_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_alabama.png" width="425"/>
+<em>us - alabama</em>
+
+
