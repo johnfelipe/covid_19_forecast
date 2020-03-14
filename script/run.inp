@@ -7,7 +7,7 @@ string DIR_WORK = "" 		# <SET_PATH_HERE> e.g. "/home/git_project"
 string DATA_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv"
 string INITIAL_DATE = "2020-01-22"			# 1st available observation of CSSE dataset
 scalar MAX_HORIZON = 7						# multi-step OoS forecast horizon
-scalar MINIMUM_CASES = 15					# Minimal number of confirmed cases at latest observation for consideration
+scalar MINIMUM_CASES = 30					# Minimal number of confirmed cases at latest observation for consideration
 string SAVE_PLOT_AS = "png"					# grpahic format: "png", "pdf"", eps"
 
 # ARIMA model settings
@@ -97,14 +97,17 @@ loop i=min(unit)..max(unit) --quiet
     smpl unit == $i && ok(confirmed_cases) --restrict
     setobs 7 @INITIAL_DATE --time-series
 
-    if confirmed_cases[$tmax] >= MINIMUM_CASES
-        string country_name = strvals(country)[values(country)]
+    string country_name = strvals(country)[values(country)]
 
-        if sum(ok(province))	# for some countries data on province level not available
-            string province_name = strvals(province)[values(province)]
-        else
-            string province_name = ""
-        endif
+    if sum(ok(province))	# for some countries data on province level not available
+        string province_name = strvals(province)[values(province)]
+    else
+        string province_name = ""
+    endif
+    if confirmed_cases[$tmax] < MINIMUM_CASES
+        printf "Country '%s' and province '%s' has\n\
+          currently less than %d confirmed cases.\n", country_name, province_name, MINIMUM_CASES
+    else
         printf "Start forecasting for:\n\
           country '%s' and province '%s'\n", country_name, province_name
 
@@ -145,15 +148,17 @@ loop i=min(unit)..max(unit) --quiet
     smpl unit == $i --restrict
     setobs 7 @INITIAL_DATE --time-series
 
-    if confirmed_cases[$tmax] >= MINIMUM_CASES
-        list FC = null
+    string country_name = strvals(country)[values(country)]
+    if sum(ok(province))	# for some countries data on province level not available
+        string province_name = strvals(province)[values(province)]
+    else
+        string province_name = ""
+    endif
 
-        string country_name = strvals(country)[values(country)]
-        if sum(ok(province))	# for some countries data on province level not available
-            string province_name = strvals(province)[values(province)]
-        else
-            string province_name = ""
-        endif
+    if confirmed_cases[$tmax] < MINIMUM_CASES
+        printf "Country '%s' and province '%s' has\n\
+          currently less than %d confirmed cases.\n", country_name, province_name, MINIMUM_CASES
+    else
         printf "Start forecasting for:\n\
           country '%s' and province '%s'\n", country_name, province_name
 
