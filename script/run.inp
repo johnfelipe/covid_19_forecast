@@ -104,7 +104,7 @@ loop i=min(unit)..max(unit) --quiet
     else
         string province_name = ""
     endif
-    if confirmed_cases[$tmax - MAX_HORIZON] < MINIMUM_CASES
+    if confirmed_cases[$tmax] < MINIMUM_CASES
         printf "Country '%s' and province '%s' has\n\
           currently less than %d confirmed cases.\n", country_name, province_name, MINIMUM_CASES
     else
