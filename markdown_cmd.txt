@@ -124,6 +124,9 @@
 <img src="./figures/forecast_maxhorizon_7_iceland__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_iceland_.png" width="425"/>
 <em>iceland - </em>
 
+<img src="./figures/forecast_maxhorizon_7_lithuania__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_lithuania_.png" width="425"/>
+<em>lithuania - </em>
+
 <img src="./figures/forecast_maxhorizon_7_mexico__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_mexico_.png" width="425"/>
 <em>mexico - </em>
 
@@ -142,8 +145,14 @@
 <img src="./figures/forecast_maxhorizon_7_ecuador__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_ecuador_.png" width="425"/>
 <em>ecuador - </em>
 
+<img src="./figures/forecast_maxhorizon_7_azerbaijan__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_azerbaijan_.png" width="425"/>
+<em>azerbaijan - </em>
+
 <img src="./figures/forecast_maxhorizon_7_armenia__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_armenia_.png" width="425"/>
 <em>armenia - </em>
+
+<img src="./figures/forecast_maxhorizon_7_dominican_republic__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_dominican_republic_.png" width="425"/>
+<em>dominican_republic - </em>
 
 <img src="./figures/forecast_maxhorizon_7_indonesia__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_indonesia_.png" width="425"/>
 <em>indonesia - </em>
@@ -180,6 +189,9 @@
 
 <img src="./figures/forecast_maxhorizon_7_poland__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_poland_.png" width="425"/>
 <em>poland - </em>
+
+<img src="./figures/forecast_maxhorizon_7_tunisia__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_tunisia_.png" width="425"/>
+<em>tunisia - </em>
 
 <img src="./figures/forecast_maxhorizon_7_bosnia_and_herzegovina__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_bosnia_and_herzegovina_.png" width="425"/>
 <em>bosnia_and_herzegovina - </em>
@@ -268,6 +280,9 @@
 <img src="./figures/forecast_maxhorizon_7_us_pennsylvania_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_pennsylvania.png" width="425"/>
 <em>us - pennsylvania</em>
 
+<img src="./figures/forecast_maxhorizon_7_us_iowa_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_iowa.png" width="425"/>
+<em>us - iowa</em>
+
 <img src="./figures/forecast_maxhorizon_7_us_maryland_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_maryland.png" width="425"/>
 <em>us - maryland</em>
 
@@ -283,14 +298,23 @@
 <img src="./figures/forecast_maxhorizon_7_us_virginia_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_virginia.png" width="425"/>
 <em>us - virginia</em>
 
+<img src="./figures/forecast_maxhorizon_7_us_arizona_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_arizona.png" width="425"/>
+<em>us - arizona</em>
+
 <img src="./figures/forecast_maxhorizon_7_us_indiana_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_indiana.png" width="425"/>
 <em>us - indiana</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_kentucky_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_kentucky.png" width="425"/>
+<em>us - kentucky</em>
 
 <img src="./figures/forecast_maxhorizon_7_us_district_of_columbia_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_district_of_columbia.png" width="425"/>
 <em>us - district_of_columbia</em>
 
 <img src="./figures/forecast_maxhorizon_7_us_nevada_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_nevada.png" width="425"/>
 <em>us - nevada</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_new_hampshire_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_new_hampshire.png" width="425"/>
+<em>us - new_hampshire</em>
 
 <img src="./figures/forecast_maxhorizon_7_us_minnesota_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_minnesota.png" width="425"/>
 <em>us - minnesota</em>
@@ -307,17 +331,32 @@
 <img src="./figures/forecast_maxhorizon_7_us_connecticut_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_connecticut.png" width="425"/>
 <em>us - connecticut</em>
 
+<img src="./figures/forecast_maxhorizon_7_us_oklahoma_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_oklahoma.png" width="425"/>
+<em>us - oklahoma</em>
+
 <img src="./figures/forecast_maxhorizon_7_us_utah_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_utah.png" width="425"/>
 <em>us - utah</em>
+
+<img src="./figures/forecast_maxhorizon_7_burkina_faso__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_burkina_faso_.png" width="425"/>
+<em>burkina_faso - </em>
 
 <img src="./figures/forecast_maxhorizon_7_panama__expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_panama_.png" width="425"/>
 <em>panama - </em>
 
+<img src="./figures/forecast_maxhorizon_7_us_kansas_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_kansas.png" width="425"/>
+<em>us - kansas</em>
+
 <img src="./figures/forecast_maxhorizon_7_us_louisiana_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_louisiana.png" width="425"/>
 <em>us - louisiana</em>
 
+<img src="./figures/forecast_maxhorizon_7_us_missouri_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_missouri.png" width="425"/>
+<em>us - missouri</em>
+
 <img src="./figures/forecast_maxhorizon_7_us_arkansas_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_arkansas.png" width="425"/>
 <em>us - arkansas</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_delaware_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_delaware.png" width="425"/>
+<em>us - delaware</em>
 
 <img src="./figures/forecast_maxhorizon_7_us_maine_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_maine.png" width="425"/>
 <em>us - maine</em>
@@ -327,6 +366,9 @@
 
 <img src="./figures/forecast_maxhorizon_7_us_mississippi_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_mississippi.png" width="425"/>
 <em>us - mississippi</em>
+
+<img src="./figures/forecast_maxhorizon_7_us_new_mexico_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_us_new_mexico.png" width="425"/>
+<em>us - new_mexico</em>
 
 <img src="./figures/forecast_maxhorizon_7_china_hubei_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_china_hubei.png" width="425"/>
 <em>china - hubei</em>
@@ -471,5 +513,8 @@
 
 <img src="./figures/forecast_maxhorizon_7_netherlands_netherlands_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_netherlands_netherlands.png" width="425"/>
 <em>netherlands - netherlands</em>
+
+<img src="./figures/forecast_maxhorizon_7_france_guadeloupe_expost.png" width="425"/> <img src="./figures/forecast_maxhorizon_7_france_guadeloupe.png" width="425"/>
+<em>france - guadeloupe</em>
 
 
