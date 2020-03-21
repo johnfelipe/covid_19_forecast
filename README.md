@@ -1,4 +1,4 @@
-# Time-series based 7-days ahead forecasts of (known) confirmed cases of the novel Coronavirus COVID-19 (2019-nCoV)
+# Time-series based 7-days ahead forecasts of (known) confirmed cases of the novel Corona virus COVID-19 (2019-nCoV)
 
 **Statement**: This is just "hobby" project and forecast results *should not* be taken too seriously! Even though forecast performance may be reasonable for some country and some period in time. Don't take the numbers forecast as granted!
 This project is mainly supposed to show what may be realized (without too much effort) with the open-source statistics and econometrics software gretl (URL: http://gretl.sourceforge.net/).
