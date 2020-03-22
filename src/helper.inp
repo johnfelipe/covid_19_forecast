@@ -43,8 +43,8 @@ function string compile_markdown_plot_cmd (const string folder "Folder where plo
         string pic2 = filename_forecast_plot(countries[i], provinces[i], MAX_HORIZON, 0)
         string pic3 = filename_change_plot(countries[i], provinces[i], MAX_HORIZON)
 
-        markdown_cmd += sprintf("<img src=\"%s/%s.%s\" width=\"225\"/> \
-          <img src=\"%s/%s.%s\" width=\"225\"/> <img src=\"%s/%s.%s\" width=\"225\"/>\n", \
+        markdown_cmd += sprintf("<img src=\"%s/%s.%s\" width=\"260\"/> \
+          <img src=\"%s/%s.%s\" width=\"260\"/> <img src=\"%s/%s.%s\" width=\"260\"/>\n", \
           folder, pic1, FILE_FORMAT, folder, pic2, FILE_FORMAT, folder, pic3, FILE_FORMAT)
 
         markdown_cmd += sprintf("<em>%s - %s</em>\n\n", countries[i], provinces[i])
