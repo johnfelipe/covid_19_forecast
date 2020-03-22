@@ -61,7 +61,7 @@ Next, for each country-province combination two exercises are conducted:
 # Ex-Post and up-to-date out-of-sample 7-days ahead forecasts
 The left panel shows forecast made in information available 7 days ago and the realization of 'confirmed cases' during this period. This may give you an idea of how 'well' the forecasted dynamics were. 
 
-The right panel shows forecasts made on latest data for the forthcoming 7 days.
+The middle panel shows forecasts made on latest data for the forthcoming 7 days. The left panel depicts both the historic and predicted day-to-day changes of confirmed cases.
 
 <img src="./figures/forecast_maxhorizon_7_thailand__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_thailand_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_thailand__first_difference.png" width="260"/>
 <em>thailand - </em>
