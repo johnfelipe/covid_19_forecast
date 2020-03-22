@@ -63,7 +63,8 @@ The left panel shows forecast made in information available 7 days ago and the r
 
 The right panel shows forecasts made on latest data for the forthcoming 7 days.
 
-<img src="./figures/forecast_maxhorizon_7_thailand__expost.png" width="225"/>            <img src="./figures/forecast_maxhorizon_7_thailand_.png" width="225"/> <img src="./figures/forecast_maxhorizon_7_thailand__first_difference.png" width="225"/>
+<img src="./figures/forecast_maxhorizon_7_thailand__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_thailand_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_thailand__first_difference.png" width="260"/>
+
 <em>thailand - </em>
 
 <img src="./figures/forecast_maxhorizon_7_japan__expost.png" width="225"/>            <img src="./figures/forecast_maxhorizon_7_japan_.png" width="225"/> <img src="./figures/forecast_maxhorizon_7_japan__first_difference.png" width="225"/>
