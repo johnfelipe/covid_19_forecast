@@ -181,11 +181,17 @@ loop i=min(unit)..max(unit) --quiet
               country_name, province_name, model_properties)
             string filename = sprintf("./figures/%s.%s", \
               filename_forecast_plot(country_name, province_name, MAX_HORIZON, 0), SAVE_PLOT_AS)
-
             plot_forecast(confirmed_cases, fc_point, fc_se, title, filename)
 
             countries_ok += sprintf("%s", country_name)
             provinces_ok += sprintf("%s", province_name)
+
+            string title = sprintf("New cases per day in %s - %s [%s]", \
+              country_name, province_name, model_properties)
+            string filename = sprintf("./figures/%s.%s", \
+              filename_change_plot(country_name, province_name, MAX_HORIZON), SAVE_PLOT_AS)
+            plot_change_in_y_and_fc(confirmed_cases, fc_point, title, filename)
+
         endif
     endif
 endloop

@@ -2,7 +2,7 @@ function string filename_forecast_plot (const string country,
                                         const string province,
                                         const int MAX_HORIZON[1::],
                                         const bool is_expost)
-    /* Compile filename of plot showing expost/ exante interval forecast. */
+    /* Compile filename for plot showing expost/ exante interval forecast. */
 
     string expost = ""
     expost = (is_expost > 0) ? "_expost" : expost
@@ -10,6 +10,17 @@ function string filename_forecast_plot (const string country,
     return sprintf("forecast_maxhorizon_%d_%s_%s%s", \
       MAX_HORIZON, country, province, expost)
 end function
+
+
+function string filename_change_plot (const string country,
+                                        const string province,
+                                        const int MAX_HORIZON[1::])
+    /* Compile filename for plot showing realized and forecasted change in target series. */
+
+    return sprintf("forecast_maxhorizon_%d_%s_%s_first_difference", \
+      MAX_HORIZON, country, province)
+end function
+
 
 
 function string compile_markdown_plot_cmd (const string folder "Folder where plots are located",
@@ -30,8 +41,12 @@ function string compile_markdown_plot_cmd (const string folder "Folder where plo
     loop i=1..nelem(countries) -q
         string pic1 = filename_forecast_plot(countries[i], provinces[i], MAX_HORIZON, 1)
         string pic2 = filename_forecast_plot(countries[i], provinces[i], MAX_HORIZON, 0)
-        markdown_cmd += sprintf("<img src=\"%s/%s.%s\" width=\"425\"/> <img src=\"%s/%s.%s\" width=\"425\"/>\n", \
-          folder, pic1, FILE_FORMAT, folder, pic2, FILE_FORMAT)
+        string pic3 = filename_change_plot(countries[i], provinces[i], MAX_HORIZON)
+
+        markdown_cmd += sprintf("<img src=\"%s/%s.%s\" width=\"225\"/> \
+          <img src=\"%s/%s.%s\" width=\"225\"/> <img src=\"%s/%s.%s\" width=\"225\"/>\n", \
+          folder, pic1, FILE_FORMAT, folder, pic2, FILE_FORMAT, folder, pic3, FILE_FORMAT)
+
         markdown_cmd += sprintf("<em>%s - %s</em>\n\n", countries[i], provinces[i])
     endloop
 
@@ -127,7 +142,7 @@ function list meanmodel_forecast (const series y,
     list FC = null
     model_properties = sprintf("conditional mean model")
     smpl ; -MAX_HORIZON
- 
+
     catch ols y const xlist --quiet
     if $error
         printf "\nError: Failed to estimate %s.\n", model_properties
@@ -175,10 +190,10 @@ end function
 
 
 function list historical_avg_forecast (const series y,
-                             const int MAX_HORIZON[1::],
-                             string *model_properties)
+                                       const int MAX_HORIZON[1::],
+                                       string *model_properties)
     /* If the endogenous has no variance over the training set,
-    simply interpolate the average. */
+      simply interpolate the average. */
 
     list FC = null
     model_properties = sprintf("Historical mean")
@@ -204,8 +219,8 @@ function list do_forecast (const series y,
                            const int MAX_HORIZON[1::],
                            string *model_properties)
     /* Set training and test set, estimate model and compute
-    interval forecasts. We will try another (simpler model) in
-    case the former has failed being computed (for instance due
+       interval forecasts. We will try another (simpler model) in
+       case the former has failed being computed (for instance due
     to convergence failure). */
 
     list FC = null
@@ -224,13 +239,13 @@ function list do_forecast (const series y,
     endif
     if nelem(FC) == 0
         list FC = arima_forecast(y, xlist, 0, 2, q, MAX_HORIZON, &model_properties)
-    endif    
+    endif
     if nelem(FC) == 0
         list FC = arima_forecast(y, xlist, 1, 1, 0, MAX_HORIZON, &model_properties)
     endif
     if nelem(FC) == 0
         list FC = arima_forecast(y, xlist, 0, 1, 0, MAX_HORIZON, &model_properties)
-    endif   
+    endif
 
     # Return simple mean model
     if nelem(FC) == 0
@@ -242,10 +257,10 @@ end function
 
 
 function void plot_forecast (const series y,
-                                const series fc_point,
-                                const series fc_se,
-                                const string title,
-                                const string filename "Full path or 'display'")
+                             const series fc_point,
+                             const series fc_se,
+                             const string title,
+                             const string filename "Full path or 'display'")
     list L = y fc_point
     string vname = sprintf("%s", argname(y))
     setinfo y --graph-name=@vname
@@ -261,3 +276,42 @@ function void plot_forecast (const series y,
     end plot --output="@filename"
 end function
 
+
+function list get_diff_series_for_plot (const series y,
+                                        const series fc)
+    /* Get change in realizations and forecast series. */
+
+    series d_y = diff(y)
+    series d_fc = diff(fc)
+    series d_y_fc = diff((!missing(y)) ? y : fc)	# concatenate for computing 1st diff based on forecast
+    series d_fc = (time>=firstobs(fc)) ? d_y_fc : NA		# drop historic values, keep only forecasts
+    d_fc = int(d_fc)
+    list L = d_y d_fc
+
+    return L
+end function 
+
+
+function void plot_change_in_y_and_fc (const series y,
+                                       const series fc,
+                                       const string title,
+                                       const string filename)
+    /* Compute change in both realized and forecasted confirmed_cases. */
+    list L = get_diff_series_for_plot(y, fc)
+
+    string str_y = sprintf("Change in %s", argname(y))
+    string str_fc = sprintf("Predicted change in %s", argname(y))
+    setinfo d_y --graph-name="@str_y"
+    setinfo d_fc --graph-name="@str_fc"
+    list L = d_y d_fc
+
+    plot L
+        options with-lines time-series single-yaxis
+        literal set key top left
+        literal set grid
+        literal set linetype 1 lc rgb "black"
+        literal set linetype 2 lc rgb "red" lw 2
+        printf "set ylabel \"%s\"", sprintf("Change per day in %s", argname(y))
+        printf "set title \"%s\"", title
+    end plot --output="@filename"
+end function
