@@ -571,10 +571,10 @@
 <img src="./figures/forecast_maxhorizon_7_netherlands_netherlands_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_netherlands_netherlands.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_netherlands_netherlands_first_difference.png" width="260"/>
 <em>netherlands - netherlands</em>
 
-<img src="./figures/forecast_maxhorizon_7_france_guadeloupe_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_france_guadeloupe.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_france_guadeloupe_first_difference.png" width="260"/>
-<em>france - guadeloupe</em>
+<img src="./figures/forecast_maxhorizon_7_guadeloupe__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_guadeloupe_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_guadeloupe__first_difference.png" width="260"/>
+<em>guadeloupe - </em>
 
-<img src="./figures/forecast_maxhorizon_7_france_reunion_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_france_reunion.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_france_reunion_first_difference.png" width="260"/>
-<em>france - reunion</em>
+<img src="./figures/forecast_maxhorizon_7_reunion__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_reunion_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_reunion__first_difference.png" width="260"/>
+<em>reunion - </em>
 
 
