@@ -153,6 +153,9 @@ The middle panel shows forecasts made on latest data for the forthcoming 7 days.
 <img src="./figures/forecast_maxhorizon_7_canada_manitoba_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_canada_manitoba.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_canada_manitoba_first_difference.png" width="260"/>
 <em>canada - manitoba</em>
 
+<img src="./figures/forecast_maxhorizon_7_canada_new_brunswick_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_canada_new_brunswick.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_canada_new_brunswick_first_difference.png" width="260"/>
+<em>canada - new_brunswick</em>
+
 <img src="./figures/forecast_maxhorizon_7_canada_newfoundland_and_labrador_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_canada_newfoundland_and_labrador.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_canada_newfoundland_and_labrador_first_difference.png" width="260"/>
 <em>canada - newfoundland_and_labrador</em>
 
@@ -312,6 +315,9 @@ The middle panel shows forecasts made on latest data for the forthcoming 7 days.
 <img src="./figures/forecast_maxhorizon_7_finland__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_finland_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_finland__first_difference.png" width="260"/>
 <em>finland - </em>
 
+<img src="./figures/forecast_maxhorizon_7_france_french_polynesia_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_france_french_polynesia.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_france_french_polynesia_first_difference.png" width="260"/>
+<em>france - french_polynesia</em>
+
 <img src="./figures/forecast_maxhorizon_7_france_guadeloupe_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_france_guadeloupe.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_france_guadeloupe_first_difference.png" width="260"/>
 <em>france - guadeloupe</em>
 
@@ -377,6 +383,9 @@ The middle panel shows forecasts made on latest data for the forthcoming 7 days.
 
 <img src="./figures/forecast_maxhorizon_7_kazakhstan__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_kazakhstan_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_kazakhstan__first_difference.png" width="260"/>
 <em>kazakhstan - </em>
+
+<img src="./figures/forecast_maxhorizon_7_kenya__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_kenya_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_kenya__first_difference.png" width="260"/>
+<em>kenya - </em>
 
 <img src="./figures/forecast_maxhorizon_7_korea_south__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_korea_south_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_korea_south__first_difference.png" width="260"/>
 <em>korea_south - </em>
@@ -537,6 +546,9 @@ The middle panel shows forecasts made on latest data for the forthcoming 7 days.
 <img src="./figures/forecast_maxhorizon_7_united_kingdom_channel_islands_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_united_kingdom_channel_islands.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_united_kingdom_channel_islands_first_difference.png" width="260"/>
 <em>united_kingdom - channel_islands</em>
 
+<img src="./figures/forecast_maxhorizon_7_united_kingdom_gibraltar_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_united_kingdom_gibraltar.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_united_kingdom_gibraltar_first_difference.png" width="260"/>
+<em>united_kingdom - gibraltar</em>
+
 <img src="./figures/forecast_maxhorizon_7_united_kingdom__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_united_kingdom_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_united_kingdom__first_difference.png" width="260"/>
 <em>united_kingdom - </em>
 
@@ -555,4 +567,8 @@ The middle panel shows forecasts made on latest data for the forthcoming 7 days.
 <img src="./figures/forecast_maxhorizon_7_vietnam__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_vietnam_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_vietnam__first_difference.png" width="260"/>
 <em>vietnam - </em>
 
+<img src="./figures/forecast_maxhorizon_7_west_bank_and_gaza__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_west_bank_and_gaza_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_west_bank_and_gaza__first_difference.png" width="260"/>
+<em>west_bank_and_gaza - </em>
 
+<img src="./figures/forecast_maxhorizon_7_kosovo__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_kosovo_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_kosovo__first_difference.png" width="260"/>
+<em>kosovo - </em>
