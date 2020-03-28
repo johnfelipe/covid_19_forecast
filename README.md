@@ -435,6 +435,9 @@ The middle panel shows forecasts made on latest data for the forthcoming 7 days.
 <img src="./figures/forecast_maxhorizon_7_morocco__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_morocco_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_morocco__first_difference.png" width="260"/>
 <em>morocco - </em>
 
+<img src="./figures/forecast_maxhorizon_7_netherlands_aruba_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_netherlands_aruba.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_netherlands_aruba_first_difference.png" width="260"/>
+<em>netherlands - aruba</em>
+
 <img src="./figures/forecast_maxhorizon_7_netherlands__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_netherlands_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_netherlands__first_difference.png" width="260"/>
 <em>netherlands - </em>
 
@@ -572,3 +575,5 @@ The middle panel shows forecasts made on latest data for the forthcoming 7 days.
 
 <img src="./figures/forecast_maxhorizon_7_kosovo__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_kosovo_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_kosovo__first_difference.png" width="260"/>
 <em>kosovo - </em>
+
+
