@@ -280,6 +280,9 @@
 <img src="./figures/forecast_maxhorizon_7_greece__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_greece_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_greece__first_difference.png" width="260"/>
 <em>greece - </em>
 
+<img src="./figures/forecast_maxhorizon_7_guatemala__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_guatemala_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_guatemala__first_difference.png" width="260"/>
+<em>guatemala - </em>
+
 <img src="./figures/forecast_maxhorizon_7_honduras__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_honduras_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_honduras__first_difference.png" width="260"/>
 <em>honduras - </em>
 
@@ -309,6 +312,9 @@
 
 <img src="./figures/forecast_maxhorizon_7_italy__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_italy_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_italy__first_difference.png" width="260"/>
 <em>italy - </em>
+
+<img src="./figures/forecast_maxhorizon_7_jamaica__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_jamaica_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_jamaica__first_difference.png" width="260"/>
+<em>jamaica - </em>
 
 <img src="./figures/forecast_maxhorizon_7_japan__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_japan_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_japan__first_difference.png" width="260"/>
 <em>japan - </em>
@@ -475,6 +481,9 @@
 <img src="./figures/forecast_maxhorizon_7_turkey__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_turkey_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_turkey__first_difference.png" width="260"/>
 <em>turkey - </em>
 
+<img src="./figures/forecast_maxhorizon_7_uganda__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_uganda_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_uganda__first_difference.png" width="260"/>
+<em>uganda - </em>
+
 <img src="./figures/forecast_maxhorizon_7_ukraine__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_ukraine_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_ukraine__first_difference.png" width="260"/>
 <em>ukraine - </em>
 
@@ -486,6 +495,9 @@
 
 <img src="./figures/forecast_maxhorizon_7_united_kingdom_gibraltar_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_united_kingdom_gibraltar.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_united_kingdom_gibraltar_first_difference.png" width="260"/>
 <em>united_kingdom - gibraltar</em>
+
+<img src="./figures/forecast_maxhorizon_7_united_kingdom_isle_of_man_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_united_kingdom_isle_of_man.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_united_kingdom_isle_of_man_first_difference.png" width="260"/>
+<em>united_kingdom - isle_of_man</em>
 
 <img src="./figures/forecast_maxhorizon_7_united_kingdom__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_united_kingdom_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_united_kingdom__first_difference.png" width="260"/>
 <em>united_kingdom - </em>
