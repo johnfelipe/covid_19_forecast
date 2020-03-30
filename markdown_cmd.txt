@@ -49,6 +49,9 @@
 <img src="./figures/forecast_maxhorizon_7_bangladesh__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_bangladesh_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_bangladesh__first_difference.png" width="260"/>
 <em>bangladesh - </em>
 
+<img src="./figures/forecast_maxhorizon_7_barbados__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_barbados_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_barbados__first_difference.png" width="260"/>
+<em>barbados - </em>
+
 <img src="./figures/forecast_maxhorizon_7_belarus__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_belarus_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_belarus__first_difference.png" width="260"/>
 <em>belarus - </em>
 
@@ -351,6 +354,9 @@
 
 <img src="./figures/forecast_maxhorizon_7_luxembourg__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_luxembourg_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_luxembourg__first_difference.png" width="260"/>
 <em>luxembourg - </em>
+
+<img src="./figures/forecast_maxhorizon_7_madagascar__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_madagascar_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_madagascar__first_difference.png" width="260"/>
+<em>madagascar - </em>
 
 <img src="./figures/forecast_maxhorizon_7_malaysia__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_malaysia_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_malaysia__first_difference.png" width="260"/>
 <em>malaysia - </em>
