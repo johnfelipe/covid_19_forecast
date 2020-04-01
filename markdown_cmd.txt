@@ -238,6 +238,9 @@
 <img src="./figures/forecast_maxhorizon_7_denmark__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_denmark_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_denmark__first_difference.png" width="260"/>
 <em>denmark - </em>
 
+<img src="./figures/forecast_maxhorizon_7_djibouti__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_djibouti_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_djibouti__first_difference.png" width="260"/>
+<em>djibouti - </em>
+
 <img src="./figures/forecast_maxhorizon_7_dominican_republic__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_dominican_republic_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_dominican_republic__first_difference.png" width="260"/>
 <em>dominican_republic - </em>
 
@@ -504,6 +507,9 @@
 
 <img src="./figures/forecast_maxhorizon_7_united_arab_emirates__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_united_arab_emirates_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_united_arab_emirates__first_difference.png" width="260"/>
 <em>united_arab_emirates - </em>
+
+<img src="./figures/forecast_maxhorizon_7_united_kingdom_bermuda_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_united_kingdom_bermuda.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_united_kingdom_bermuda_first_difference.png" width="260"/>
+<em>united_kingdom - bermuda</em>
 
 <img src="./figures/forecast_maxhorizon_7_united_kingdom_channel_islands_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_united_kingdom_channel_islands.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_united_kingdom_channel_islands_first_difference.png" width="260"/>
 <em>united_kingdom - channel_islands</em>
