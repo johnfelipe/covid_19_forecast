@@ -295,6 +295,9 @@
 <img src="./figures/forecast_maxhorizon_7_guatemala__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_guatemala_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_guatemala__first_difference.png" width="260"/>
 <em>guatemala - </em>
 
+<img src="./figures/forecast_maxhorizon_7_guinea__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_guinea_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_guinea__first_difference.png" width="260"/>
+<em>guinea - </em>
+
 <img src="./figures/forecast_maxhorizon_7_honduras__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_honduras_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_honduras__first_difference.png" width="260"/>
 <em>honduras - </em>
 
@@ -399,6 +402,9 @@
 
 <img src="./figures/forecast_maxhorizon_7_new_zealand__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_new_zealand_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_new_zealand__first_difference.png" width="260"/>
 <em>new_zealand - </em>
+
+<img src="./figures/forecast_maxhorizon_7_niger__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_niger_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_niger__first_difference.png" width="260"/>
+<em>niger - </em>
 
 <img src="./figures/forecast_maxhorizon_7_nigeria__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_nigeria_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_nigeria__first_difference.png" width="260"/>
 <em>nigeria - </em>
@@ -543,6 +549,9 @@
 
 <img src="./figures/forecast_maxhorizon_7_west_bank_and_gaza__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_west_bank_and_gaza_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_west_bank_and_gaza__first_difference.png" width="260"/>
 <em>west_bank_and_gaza - </em>
+
+<img src="./figures/forecast_maxhorizon_7_mali__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_mali_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_mali__first_difference.png" width="260"/>
+<em>mali - </em>
 
 <img src="./figures/forecast_maxhorizon_7_kosovo__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_kosovo_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_kosovo__first_difference.png" width="260"/>
 <em>kosovo - </em>
