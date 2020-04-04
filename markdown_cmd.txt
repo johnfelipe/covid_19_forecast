@@ -256,6 +256,9 @@
 <img src="./figures/forecast_maxhorizon_7_estonia__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_estonia_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_estonia__first_difference.png" width="260"/>
 <em>estonia - </em>
 
+<img src="./figures/forecast_maxhorizon_7_ethiopia__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_ethiopia_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_ethiopia__first_difference.png" width="260"/>
+<em>ethiopia - </em>
+
 <img src="./figures/forecast_maxhorizon_7_finland__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_finland_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_finland__first_difference.png" width="260"/>
 <em>finland - </em>
 
