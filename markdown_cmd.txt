@@ -520,6 +520,9 @@
 <img src="./figures/forecast_maxhorizon_7_united_kingdom_bermuda_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_united_kingdom_bermuda.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_united_kingdom_bermuda_first_difference.png" width="260"/>
 <em>united_kingdom - bermuda</em>
 
+<img src="./figures/forecast_maxhorizon_7_united_kingdom_cayman_islands_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_united_kingdom_cayman_islands.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_united_kingdom_cayman_islands_first_difference.png" width="260"/>
+<em>united_kingdom - cayman_islands</em>
+
 <img src="./figures/forecast_maxhorizon_7_united_kingdom_channel_islands_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_united_kingdom_channel_islands.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_united_kingdom_channel_islands_first_difference.png" width="260"/>
 <em>united_kingdom - channel_islands</em>
 
