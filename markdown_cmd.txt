@@ -208,6 +208,9 @@
 <img src="./figures/forecast_maxhorizon_7_colombia__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_colombia_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_colombia__first_difference.png" width="260"/>
 <em>colombia - </em>
 
+<img src="./figures/forecast_maxhorizon_7_congo_(brazzaville)__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_congo_(brazzaville)_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_congo_(brazzaville)__first_difference.png" width="260"/>
+<em>congo_(brazzaville) - </em>
+
 <img src="./figures/forecast_maxhorizon_7_congo_(kinshasa)__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_congo_(kinshasa)_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_congo_(kinshasa)__first_difference.png" width="260"/>
 <em>congo_(kinshasa) - </em>
 
@@ -276,6 +279,9 @@
 
 <img src="./figures/forecast_maxhorizon_7_france_reunion_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_france_reunion.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_france_reunion_first_difference.png" width="260"/>
 <em>france - reunion</em>
+
+<img src="./figures/forecast_maxhorizon_7_france_st_martin_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_france_st_martin.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_france_st_martin_first_difference.png" width="260"/>
+<em>france - st_martin</em>
 
 <img src="./figures/forecast_maxhorizon_7_france_martinique_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_france_martinique.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_france_martinique_first_difference.png" width="260"/>
 <em>france - martinique</em>
