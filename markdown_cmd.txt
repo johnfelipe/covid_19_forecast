@@ -256,6 +256,9 @@
 <img src="./figures/forecast_maxhorizon_7_el_salvador__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_el_salvador_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_el_salvador__first_difference.png" width="260"/>
 <em>el_salvador - </em>
 
+<img src="./figures/forecast_maxhorizon_7_eritrea__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_eritrea_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_eritrea__first_difference.png" width="260"/>
+<em>eritrea - </em>
+
 <img src="./figures/forecast_maxhorizon_7_estonia__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_estonia_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_estonia__first_difference.png" width="260"/>
 <em>estonia - </em>
 
@@ -306,6 +309,9 @@
 
 <img src="./figures/forecast_maxhorizon_7_guinea__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_guinea_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_guinea__first_difference.png" width="260"/>
 <em>guinea - </em>
+
+<img src="./figures/forecast_maxhorizon_7_guyana__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_guyana_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_guyana__first_difference.png" width="260"/>
+<em>guyana - </em>
 
 <img src="./figures/forecast_maxhorizon_7_honduras__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_honduras_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_honduras__first_difference.png" width="260"/>
 <em>honduras - </em>
@@ -405,6 +411,9 @@
 
 <img src="./figures/forecast_maxhorizon_7_netherlands_aruba_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_netherlands_aruba.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_netherlands_aruba_first_difference.png" width="260"/>
 <em>netherlands - aruba</em>
+
+<img src="./figures/forecast_maxhorizon_7_netherlands_sint_maarten_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_netherlands_sint_maarten.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_netherlands_sint_maarten_first_difference.png" width="260"/>
+<em>netherlands - sint_maarten</em>
 
 <img src="./figures/forecast_maxhorizon_7_netherlands__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_netherlands_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_netherlands__first_difference.png" width="260"/>
 <em>netherlands - </em>
