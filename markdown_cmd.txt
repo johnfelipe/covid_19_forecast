@@ -43,6 +43,9 @@
 <img src="./figures/forecast_maxhorizon_7_azerbaijan__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_azerbaijan_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_azerbaijan__first_difference.png" width="260"/>
 <em>azerbaijan - </em>
 
+<img src="./figures/forecast_maxhorizon_7_bahamas__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_bahamas_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_bahamas__first_difference.png" width="260"/>
+<em>bahamas - </em>
+
 <img src="./figures/forecast_maxhorizon_7_bahrain__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_bahrain_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_bahrain__first_difference.png" width="260"/>
 <em>bahrain - </em>
 
@@ -291,6 +294,9 @@
 
 <img src="./figures/forecast_maxhorizon_7_france__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_france_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_france__first_difference.png" width="260"/>
 <em>france - </em>
+
+<img src="./figures/forecast_maxhorizon_7_gabon__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_gabon_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_gabon__first_difference.png" width="260"/>
+<em>gabon - </em>
 
 <img src="./figures/forecast_maxhorizon_7_georgia__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_georgia_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_georgia__first_difference.png" width="260"/>
 <em>georgia - </em>
@@ -570,6 +576,9 @@
 
 <img src="./figures/forecast_maxhorizon_7_west_bank_and_gaza__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_west_bank_and_gaza_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_west_bank_and_gaza__first_difference.png" width="260"/>
 <em>west_bank_and_gaza - </em>
+
+<img src="./figures/forecast_maxhorizon_7_guinea-bissau__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_guinea-bissau_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_guinea-bissau__first_difference.png" width="260"/>
+<em>guinea-bissau - </em>
 
 <img src="./figures/forecast_maxhorizon_7_mali__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_mali_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_mali__first_difference.png" width="260"/>
 <em>mali - </em>
