@@ -379,6 +379,9 @@
 <img src="./figures/forecast_maxhorizon_7_lebanon__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_lebanon_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_lebanon__first_difference.png" width="260"/>
 <em>lebanon - </em>
 
+<img src="./figures/forecast_maxhorizon_7_liberia__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_liberia_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_liberia__first_difference.png" width="260"/>
+<em>liberia - </em>
+
 <img src="./figures/forecast_maxhorizon_7_liechtenstein__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_liechtenstein_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_liechtenstein__first_difference.png" width="260"/>
 <em>liechtenstein - </em>
 
