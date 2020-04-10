@@ -319,6 +319,9 @@
 <img src="./figures/forecast_maxhorizon_7_guyana__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_guyana_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_guyana__first_difference.png" width="260"/>
 <em>guyana - </em>
 
+<img src="./figures/forecast_maxhorizon_7_haiti__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_haiti_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_haiti__first_difference.png" width="260"/>
+<em>haiti - </em>
+
 <img src="./figures/forecast_maxhorizon_7_honduras__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_honduras_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_honduras__first_difference.png" width="260"/>
 <em>honduras - </em>
 
