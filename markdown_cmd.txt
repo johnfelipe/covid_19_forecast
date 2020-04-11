@@ -61,6 +61,9 @@
 <img src="./figures/forecast_maxhorizon_7_belgium__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_belgium_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_belgium__first_difference.png" width="260"/>
 <em>belgium - </em>
 
+<img src="./figures/forecast_maxhorizon_7_benin__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_benin_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_benin__first_difference.png" width="260"/>
+<em>benin - </em>
+
 <img src="./figures/forecast_maxhorizon_7_bolivia__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_bolivia_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_bolivia__first_difference.png" width="260"/>
 <em>bolivia - </em>
 
@@ -519,6 +522,9 @@
 
 <img src="./figures/forecast_maxhorizon_7_taiwan*__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_taiwan*_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_taiwan*__first_difference.png" width="260"/>
 <em>taiwan* - </em>
+
+<img src="./figures/forecast_maxhorizon_7_tanzania__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_tanzania_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_tanzania__first_difference.png" width="260"/>
+<em>tanzania - </em>
 
 <img src="./figures/forecast_maxhorizon_7_thailand__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_thailand_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_thailand__first_difference.png" width="260"/>
 <em>thailand - </em>
