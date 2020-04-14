@@ -505,6 +505,9 @@
 <img src="./figures/forecast_maxhorizon_7_slovenia__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_slovenia_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_slovenia__first_difference.png" width="260"/>
 <em>slovenia - </em>
 
+<img src="./figures/forecast_maxhorizon_7_somalia__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_somalia_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_somalia__first_difference.png" width="260"/>
+<em>somalia - </em>
+
 <img src="./figures/forecast_maxhorizon_7_south_africa__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_south_africa_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_south_africa__first_difference.png" width="260"/>
 <em>south_africa - </em>
 
