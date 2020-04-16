@@ -82,6 +82,9 @@
 <img src="./figures/forecast_maxhorizon_7_burkina_faso__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_burkina_faso_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_burkina_faso__first_difference.png" width="260"/>
 <em>burkina_faso - </em>
 
+<img src="./figures/forecast_maxhorizon_7_cabo_verde__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_cabo_verde_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_cabo_verde__first_difference.png" width="260"/>
+<em>cabo_verde - </em>
+
 <img src="./figures/forecast_maxhorizon_7_cambodia__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_cambodia_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_cambodia__first_difference.png" width="260"/>
 <em>cambodia - </em>
 
@@ -597,6 +600,9 @@
 
 <img src="./figures/forecast_maxhorizon_7_zambia__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_zambia_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_zambia__first_difference.png" width="260"/>
 <em>zambia - </em>
+
+<img src="./figures/forecast_maxhorizon_7_syria__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_syria_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_syria__first_difference.png" width="260"/>
+<em>syria - </em>
 
 <img src="./figures/forecast_maxhorizon_7_libya__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_libya_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_libya__first_difference.png" width="260"/>
 <em>libya - </em>
