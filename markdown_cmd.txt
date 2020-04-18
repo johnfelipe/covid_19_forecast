@@ -433,6 +433,9 @@
 <img src="./figures/forecast_maxhorizon_7_morocco__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_morocco_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_morocco__first_difference.png" width="260"/>
 <em>morocco - </em>
 
+<img src="./figures/forecast_maxhorizon_7_nepal__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_nepal_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_nepal__first_difference.png" width="260"/>
+<em>nepal - </em>
+
 <img src="./figures/forecast_maxhorizon_7_netherlands_aruba_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_netherlands_aruba.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_netherlands_aruba_first_difference.png" width="260"/>
 <em>netherlands - aruba</em>
 
