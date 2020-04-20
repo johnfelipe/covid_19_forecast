@@ -118,6 +118,9 @@
 <img src="./figures/forecast_maxhorizon_7_canada_saskatchewan_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_canada_saskatchewan.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_canada_saskatchewan_first_difference.png" width="260"/>
 <em>canada - saskatchewan</em>
 
+<img src="./figures/forecast_maxhorizon_7_chad__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_chad_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_chad__first_difference.png" width="260"/>
+<em>chad - </em>
+
 <img src="./figures/forecast_maxhorizon_7_chile__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_chile_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_chile__first_difference.png" width="260"/>
 <em>chile - </em>
 
@@ -409,6 +412,9 @@
 <img src="./figures/forecast_maxhorizon_7_malaysia__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_malaysia_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_malaysia__first_difference.png" width="260"/>
 <em>malaysia - </em>
 
+<img src="./figures/forecast_maxhorizon_7_maldives__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_maldives_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_maldives__first_difference.png" width="260"/>
+<em>maldives - </em>
+
 <img src="./figures/forecast_maxhorizon_7_malta__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_malta_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_malta__first_difference.png" width="260"/>
 <em>malta - </em>
 
@@ -627,5 +633,8 @@
 
 <img src="./figures/forecast_maxhorizon_7_burma__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_burma_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_burma__first_difference.png" width="260"/>
 <em>burma - </em>
+
+<img src="./figures/forecast_maxhorizon_7_sierra_leone__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_sierra_leone_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_sierra_leone__first_difference.png" width="260"/>
+<em>sierra_leone - </em>
 
 
