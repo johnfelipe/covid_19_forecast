@@ -106,9 +106,6 @@
 <img src="./figures/forecast_maxhorizon_7_canada_newfoundland_and_labrador_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_canada_newfoundland_and_labrador.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_canada_newfoundland_and_labrador_first_difference.png" width="260"/>
 <em>canada - newfoundland_and_labrador</em>
 
-<img src="./figures/forecast_maxhorizon_7_canada_nova_scotia_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_canada_nova_scotia.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_canada_nova_scotia_first_difference.png" width="260"/>
-<em>canada - nova_scotia</em>
-
 <img src="./figures/forecast_maxhorizon_7_canada_ontario_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_canada_ontario.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_canada_ontario_first_difference.png" width="260"/>
 <em>canada - ontario</em>
 
