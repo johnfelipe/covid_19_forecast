@@ -640,4 +640,7 @@
 <img src="./figures/forecast_maxhorizon_7_sierra_leone__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_sierra_leone_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_sierra_leone__first_difference.png" width="260"/>
 <em>sierra_leone - </em>
 
+<img src="./figures/forecast_maxhorizon_7_malawi__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_malawi_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_malawi__first_difference.png" width="260"/>
+<em>malawi - </em>
+
 
