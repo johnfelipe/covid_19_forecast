@@ -610,6 +610,9 @@
 <img src="./figures/forecast_maxhorizon_7_zambia__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_zambia_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_zambia__first_difference.png" width="260"/>
 <em>zambia - </em>
 
+<img src="./figures/forecast_maxhorizon_7_zimbabwe__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_zimbabwe_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_zimbabwe__first_difference.png" width="260"/>
+<em>zimbabwe - </em>
+
 <img src="./figures/forecast_maxhorizon_7_mozambique__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_mozambique_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_mozambique__first_difference.png" width="260"/>
 <em>mozambique - </em>
 
