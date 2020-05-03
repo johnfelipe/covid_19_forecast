@@ -10,6 +10,9 @@
 <img src="./figures/forecast_maxhorizon_7_andorra__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_andorra_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_andorra__first_difference.png" width="260"/>
 <em>andorra - </em>
 
+<img src="./figures/forecast_maxhorizon_7_angola__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_angola_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_angola__first_difference.png" width="260"/>
+<em>angola - </em>
+
 <img src="./figures/forecast_maxhorizon_7_argentina__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_argentina_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_argentina__first_difference.png" width="260"/>
 <em>argentina - </em>
 
