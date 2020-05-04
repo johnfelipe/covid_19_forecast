@@ -655,4 +655,7 @@
 <img src="./figures/forecast_maxhorizon_7_south_sudan__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_south_sudan_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_south_sudan__first_difference.png" width="260"/>
 <em>south_sudan - </em>
 
+<img src="./figures/forecast_maxhorizon_7_tajikistan__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_tajikistan_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_tajikistan__first_difference.png" width="260"/>
+<em>tajikistan - </em>
+
 
