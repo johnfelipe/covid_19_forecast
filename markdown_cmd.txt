@@ -427,6 +427,9 @@
 <img src="./figures/forecast_maxhorizon_7_malta__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_malta_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_malta__first_difference.png" width="260"/>
 <em>malta - </em>
 
+<img src="./figures/forecast_maxhorizon_7_mauritania__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_mauritania_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_mauritania__first_difference.png" width="260"/>
+<em>mauritania - </em>
+
 <img src="./figures/forecast_maxhorizon_7_mauritius__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_mauritius_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_mauritius__first_difference.png" width="260"/>
 <em>mauritius - </em>
 
