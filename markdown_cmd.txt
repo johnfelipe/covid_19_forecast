@@ -466,6 +466,9 @@
 <img src="./figures/forecast_maxhorizon_7_new_zealand__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_new_zealand_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_new_zealand__first_difference.png" width="260"/>
 <em>new_zealand - </em>
 
+<img src="./figures/forecast_maxhorizon_7_nicaragua__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_nicaragua_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_nicaragua__first_difference.png" width="260"/>
+<em>nicaragua - </em>
+
 <img src="./figures/forecast_maxhorizon_7_niger__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_niger_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_niger__first_difference.png" width="260"/>
 <em>niger - </em>
 
