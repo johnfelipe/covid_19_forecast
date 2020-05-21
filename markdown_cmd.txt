@@ -10,6 +10,9 @@
 <img src="./figures/forecast_maxhorizon_7_andorra__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_andorra_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_andorra__first_difference.png" width="260"/>
 <em>andorra - </em>
 
+<img src="./figures/forecast_maxhorizon_7_angola__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_angola_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_angola__first_difference.png" width="260"/>
+<em>angola - </em>
+
 <img src="./figures/forecast_maxhorizon_7_argentina__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_argentina_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_argentina__first_difference.png" width="260"/>
 <em>argentina - </em>
 
@@ -424,6 +427,9 @@
 <img src="./figures/forecast_maxhorizon_7_malta__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_malta_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_malta__first_difference.png" width="260"/>
 <em>malta - </em>
 
+<img src="./figures/forecast_maxhorizon_7_mauritania__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_mauritania_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_mauritania__first_difference.png" width="260"/>
+<em>mauritania - </em>
+
 <img src="./figures/forecast_maxhorizon_7_mauritius__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_mauritius_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_mauritius__first_difference.png" width="260"/>
 <em>mauritius - </em>
 
@@ -459,6 +465,9 @@
 
 <img src="./figures/forecast_maxhorizon_7_new_zealand__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_new_zealand_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_new_zealand__first_difference.png" width="260"/>
 <em>new_zealand - </em>
+
+<img src="./figures/forecast_maxhorizon_7_nicaragua__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_nicaragua_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_nicaragua__first_difference.png" width="260"/>
+<em>nicaragua - </em>
 
 <img src="./figures/forecast_maxhorizon_7_niger__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_niger_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_niger__first_difference.png" width="260"/>
 <em>niger - </em>
@@ -643,6 +652,9 @@
 <img src="./figures/forecast_maxhorizon_7_burma__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_burma_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_burma__first_difference.png" width="260"/>
 <em>burma - </em>
 
+<img src="./figures/forecast_maxhorizon_7_burundi__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_burundi_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_burundi__first_difference.png" width="260"/>
+<em>burundi - </em>
+
 <img src="./figures/forecast_maxhorizon_7_sierra_leone__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_sierra_leone_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_sierra_leone__first_difference.png" width="260"/>
 <em>sierra_leone - </em>
 
@@ -651,5 +663,17 @@
 
 <img src="./figures/forecast_maxhorizon_7_south_sudan__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_south_sudan_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_south_sudan__first_difference.png" width="260"/>
 <em>south_sudan - </em>
+
+<img src="./figures/forecast_maxhorizon_7_sao_tome_and_principe__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_sao_tome_and_principe_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_sao_tome_and_principe__first_difference.png" width="260"/>
+<em>sao_tome_and_principe - </em>
+
+<img src="./figures/forecast_maxhorizon_7_yemen__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_yemen_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_yemen__first_difference.png" width="260"/>
+<em>yemen - </em>
+
+<img src="./figures/forecast_maxhorizon_7_comoros__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_comoros_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_comoros__first_difference.png" width="260"/>
+<em>comoros - </em>
+
+<img src="./figures/forecast_maxhorizon_7_tajikistan__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_tajikistan_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_tajikistan__first_difference.png" width="260"/>
+<em>tajikistan - </em>
 
 
