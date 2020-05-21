@@ -6,6 +6,10 @@ DIR=$(dirname $(realpath "$0")) 	# locate folder where this sh-script is located
 cd $DIR
 echo "Switched to ${DIR}"
 
+# Drop old figures with forecasts
+rm -rf ./figures/*.png
+
+# Execute gretl job
 gretlcli -b -e -q ./script/run.inp
 
 if [ $? -eq 0 ]

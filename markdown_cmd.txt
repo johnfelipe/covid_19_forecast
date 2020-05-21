@@ -670,6 +670,9 @@
 <img src="./figures/forecast_maxhorizon_7_yemen__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_yemen_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_yemen__first_difference.png" width="260"/>
 <em>yemen - </em>
 
+<img src="./figures/forecast_maxhorizon_7_comoros__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_comoros_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_comoros__first_difference.png" width="260"/>
+<em>comoros - </em>
+
 <img src="./figures/forecast_maxhorizon_7_tajikistan__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_tajikistan_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_tajikistan__first_difference.png" width="260"/>
 <em>tajikistan - </em>
 
