@@ -67,6 +67,9 @@
 <img src="./figures/forecast_maxhorizon_7_benin__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_benin_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_benin__first_difference.png" width="260"/>
 <em>benin - </em>
 
+<img src="./figures/forecast_maxhorizon_7_bhutan__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_bhutan_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_bhutan__first_difference.png" width="260"/>
+<em>bhutan - </em>
+
 <img src="./figures/forecast_maxhorizon_7_bolivia__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_bolivia_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_bolivia__first_difference.png" width="260"/>
 <em>bolivia - </em>
 
