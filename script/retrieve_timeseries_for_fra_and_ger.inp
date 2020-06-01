@@ -1,0 +1,79 @@
+clear
+set verbose off
+
+# SETTINGS
+#==========
+string DIR_WORK = "/home/at/git/covid_19_forecast"
+string DATA_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
+string INITIAL_DATE = "2020-01-22"			# 1st available observation of CSSE dataset
+scalar MAX_HORIZON = 7						# multi-step OoS forecast horizon
+string SAVE_PLOT_AS = "png"					# grpahic format: "png", "pdf"", eps"
+
+# ARIMA model settings
+scalar ARIMA_P = 1					# autoregressive (AR) order
+scalar ARIMA_D = 2 					# differencing order
+scalar ARIMA_Q = 0					# moving average (MA) order
+#===================
+
+if DIR_WORK != ""
+    set workdir @DIR_WORK
+endif
+
+
+# include helper functions
+include "./src/helper.inp"
+
+# Download and open latest dataset
+open @DATA_URL --preserve --quiet
+
+# drop unnecessary series
+list variables_to_drop = Lat Long
+delete variables_to_drop
+
+
+smpl (CountryRegion == "France" || CountryRegion == "Germany") --restrict
+genr index
+smpl index == 10 || index == 11 --restrict --permanent
+
+
+
+# Data is arranged "by variable" -- construct a panel
+scalar N = $nobs					# cross-sectional dimension
+scalar T = time_dimension(dataset)	# time dimension
+
+list L_ALL = v*
+list L_NONEMPTY = get_non_empty_series(L_ALL)
+list L_DROP = L_ALL - L_NONEMPTY
+delete L_DROP --force
+
+
+# Stacking
+list L = v*
+matrix M = {L}'
+cnameset(M, "FRA GER")
+
+# Timeseries dataset with separate series for each country
+scalar T = rows(M)
+nulldata T --preserve
+setobs 7 @INITIAL_DATE --time-series
+series france = M[,1]
+series germany = M[,2]
+
+list L = france germany
+list Ldiff = diff(L)
+
+gnuplot france germany --with-lines --time-series --output=display
+gnuplot d_france d_germany --with-lines --time-series --output=display
+
+series dum_20200412_fra = (obs == "2020-04-12")
+series dum_20200416_fra = (obs == "2020-04-16")
+
+
+
+# Cointegration analysis
+coint 14 germany const france dum_20200412_fra dum_20200416_fra --test-down=bic
+coint 14 germany const france --test-down=bic
+
+
+
+

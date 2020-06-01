@@ -45,7 +45,7 @@ list L_NONEMPTY = get_non_empty_series(L_ALL)
 list L_DROP = L_ALL - L_NONEMPTY
 delete L_DROP --force
 list L = v*
-series confirmed_cases = stack(L, $nobs)		# yields stacked cross-section dataset
+series confirmed_cases = stack(L, N)		# yields stacked cross-section dataset
 delete L --force
 setobs N 1:1 --stacked-cross-section
 
