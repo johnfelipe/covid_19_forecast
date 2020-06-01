@@ -717,6 +717,9 @@ The middle panel shows forecasts made on latest data for the forthcoming 7 days.
 <img src="./figures/forecast_maxhorizon_7_burma__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_burma_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_burma__first_difference.png" width="260"/>
 <em>burma - </em>
 
+<img src="./figures/forecast_maxhorizon_7_botswana__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_botswana_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_botswana__first_difference.png" width="260"/>
+<em>botswana - </em>
+
 <img src="./figures/forecast_maxhorizon_7_burundi__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_burundi_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_burundi__first_difference.png" width="260"/>
 <em>burundi - </em>
 
@@ -740,5 +743,3 @@ The middle panel shows forecasts made on latest data for the forthcoming 7 days.
 
 <img src="./figures/forecast_maxhorizon_7_tajikistan__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_tajikistan_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_tajikistan__first_difference.png" width="260"/>
 <em>tajikistan - </em>
-
-
