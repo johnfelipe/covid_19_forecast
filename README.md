@@ -59,7 +59,7 @@ Next, for each country-province combination two exercises are conducted:
 	2) Out-of-sample interval forecasts for the forthcoming ```MAX_HORIZON``` days are computed.
 
 # Ex-Post and up-to-date out-of-sample 7-days ahead forecasts
-The left panel shows forecast made in information available 7 days ago and the realization of 'confirmed cases' during this period. This may give you an idea of how 'well' the forecasted dynamics were. 
+The left panel shows forecast made in information available 7 days ago and the realization of 'confirmed cases' during this period. This may give you an idea of how 'well' the forecasted dynamics were.
 
 The middle panel shows forecasts made on latest data for the forthcoming 7 days. The left panel depicts both the historic and predicted day-to-day changes of confirmed cases.
 
@@ -74,6 +74,9 @@ The middle panel shows forecasts made on latest data for the forthcoming 7 days.
 
 <img src="./figures/forecast_maxhorizon_7_andorra__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_andorra_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_andorra__first_difference.png" width="260"/>
 <em>andorra - </em>
+
+<img src="./figures/forecast_maxhorizon_7_angola__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_angola_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_angola__first_difference.png" width="260"/>
+<em>angola - </em>
 
 <img src="./figures/forecast_maxhorizon_7_argentina__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_argentina_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_argentina__first_difference.png" width="260"/>
 <em>argentina - </em>
@@ -171,6 +174,9 @@ The middle panel shows forecasts made on latest data for the forthcoming 7 days.
 <img src="./figures/forecast_maxhorizon_7_canada_newfoundland_and_labrador_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_canada_newfoundland_and_labrador.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_canada_newfoundland_and_labrador_first_difference.png" width="260"/>
 <em>canada - newfoundland_and_labrador</em>
 
+<img src="./figures/forecast_maxhorizon_7_canada_nova_scotia_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_canada_nova_scotia.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_canada_nova_scotia_first_difference.png" width="260"/>
+<em>canada - nova_scotia</em>
+
 <img src="./figures/forecast_maxhorizon_7_canada_ontario_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_canada_ontario.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_canada_ontario_first_difference.png" width="260"/>
 <em>canada - ontario</em>
 
@@ -179,6 +185,9 @@ The middle panel shows forecasts made on latest data for the forthcoming 7 days.
 
 <img src="./figures/forecast_maxhorizon_7_canada_saskatchewan_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_canada_saskatchewan.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_canada_saskatchewan_first_difference.png" width="260"/>
 <em>canada - saskatchewan</em>
+
+<img src="./figures/forecast_maxhorizon_7_central_african_republic__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_central_african_republic_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_central_african_republic__first_difference.png" width="260"/>
+<em>central_african_republic - </em>
 
 <img src="./figures/forecast_maxhorizon_7_chad__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_chad_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_chad__first_difference.png" width="260"/>
 <em>chad - </em>
@@ -483,6 +492,9 @@ The middle panel shows forecasts made on latest data for the forthcoming 7 days.
 <img src="./figures/forecast_maxhorizon_7_malta__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_malta_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_malta__first_difference.png" width="260"/>
 <em>malta - </em>
 
+<img src="./figures/forecast_maxhorizon_7_mauritania__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_mauritania_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_mauritania__first_difference.png" width="260"/>
+<em>mauritania - </em>
+
 <img src="./figures/forecast_maxhorizon_7_mauritius__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_mauritius_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_mauritius__first_difference.png" width="260"/>
 <em>mauritius - </em>
 
@@ -518,6 +530,9 @@ The middle panel shows forecasts made on latest data for the forthcoming 7 days.
 
 <img src="./figures/forecast_maxhorizon_7_new_zealand__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_new_zealand_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_new_zealand__first_difference.png" width="260"/>
 <em>new_zealand - </em>
+
+<img src="./figures/forecast_maxhorizon_7_nicaragua__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_nicaragua_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_nicaragua__first_difference.png" width="260"/>
+<em>nicaragua - </em>
 
 <img src="./figures/forecast_maxhorizon_7_niger__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_niger_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_niger__first_difference.png" width="260"/>
 <em>niger - </em>
@@ -675,6 +690,9 @@ The middle panel shows forecasts made on latest data for the forthcoming 7 days.
 <img src="./figures/forecast_maxhorizon_7_zambia__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_zambia_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_zambia__first_difference.png" width="260"/>
 <em>zambia - </em>
 
+<img src="./figures/forecast_maxhorizon_7_zimbabwe__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_zimbabwe_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_zimbabwe__first_difference.png" width="260"/>
+<em>zimbabwe - </em>
+
 <img src="./figures/forecast_maxhorizon_7_mozambique__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_mozambique_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_mozambique__first_difference.png" width="260"/>
 <em>mozambique - </em>
 
@@ -699,10 +717,29 @@ The middle panel shows forecasts made on latest data for the forthcoming 7 days.
 <img src="./figures/forecast_maxhorizon_7_burma__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_burma_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_burma__first_difference.png" width="260"/>
 <em>burma - </em>
 
+<img src="./figures/forecast_maxhorizon_7_botswana__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_botswana_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_botswana__first_difference.png" width="260"/>
+<em>botswana - </em>
+
+<img src="./figures/forecast_maxhorizon_7_burundi__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_burundi_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_burundi__first_difference.png" width="260"/>
+<em>burundi - </em>
+
 <img src="./figures/forecast_maxhorizon_7_sierra_leone__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_sierra_leone_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_sierra_leone__first_difference.png" width="260"/>
 <em>sierra_leone - </em>
 
 <img src="./figures/forecast_maxhorizon_7_malawi__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_malawi_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_malawi__first_difference.png" width="260"/>
 <em>malawi - </em>
 
+<img src="./figures/forecast_maxhorizon_7_south_sudan__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_south_sudan_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_south_sudan__first_difference.png" width="260"/>
+<em>south_sudan - </em>
 
+<img src="./figures/forecast_maxhorizon_7_sao_tome_and_principe__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_sao_tome_and_principe_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_sao_tome_and_principe__first_difference.png" width="260"/>
+<em>sao_tome_and_principe - </em>
+
+<img src="./figures/forecast_maxhorizon_7_yemen__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_yemen_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_yemen__first_difference.png" width="260"/>
+<em>yemen - </em>
+
+<img src="./figures/forecast_maxhorizon_7_comoros__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_comoros_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_comoros__first_difference.png" width="260"/>
+<em>comoros - </em>
+
+<img src="./figures/forecast_maxhorizon_7_tajikistan__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_tajikistan_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_tajikistan__first_difference.png" width="260"/>
+<em>tajikistan - </em>
