@@ -1,3 +1,17 @@
+function list get_non_empty_series (const list L)
+    /* Get list of series with at least on valid observation. */
+    
+    list R = null    
+    loop foreach i L
+        if nobs(L.$i) > 0
+            R += $i
+        endif        
+    endloop
+    
+    return R
+end function
+
+
 function string filename_forecast_plot (const string country,
                                         const string province,
                                         const int MAX_HORIZON[1::],

@@ -40,9 +40,15 @@ scalar T = time_dimension(dataset)	# time dimension
 
 # Add future observations + stack data set + define panel
 list newobs = add_future_observations(dataset, MAX_HORIZON)
-series confirmed_cases = stack(v*)		# yields stacked cross-section dataset
-delete v*
+list L_ALL = v*
+list L_NONEMPTY = get_non_empty_series(L_ALL)
+list L_DROP = L_ALL - L_NONEMPTY
+delete L_DROP --force
+list L = v*
+series confirmed_cases = stack(L, $nobs)		# yields stacked cross-section dataset
+delete L --force
 setobs N 1:1 --stacked-cross-section
+
 
 # Fill gaps in country series
 series country = fill_panel_gaps_of_constant(CountryRegion)
