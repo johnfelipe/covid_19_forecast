@@ -67,6 +67,9 @@
 <img src="./figures/forecast_maxhorizon_7_benin__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_benin_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_benin__first_difference.png" width="260"/>
 <em>benin - </em>
 
+<img src="./figures/forecast_maxhorizon_7_bhutan__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_bhutan_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_bhutan__first_difference.png" width="260"/>
+<em>bhutan - </em>
+
 <img src="./figures/forecast_maxhorizon_7_bolivia__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_bolivia_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_bolivia__first_difference.png" width="260"/>
 <em>bolivia - </em>
 
@@ -552,6 +555,9 @@
 
 <img src="./figures/forecast_maxhorizon_7_sudan__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_sudan_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_sudan__first_difference.png" width="260"/>
 <em>sudan - </em>
+
+<img src="./figures/forecast_maxhorizon_7_suriname__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_suriname_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_suriname__first_difference.png" width="260"/>
+<em>suriname - </em>
 
 <img src="./figures/forecast_maxhorizon_7_sweden__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_sweden_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_sweden__first_difference.png" width="260"/>
 <em>sweden - </em>
