@@ -454,6 +454,9 @@
 <img src="./figures/forecast_maxhorizon_7_morocco__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_morocco_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_morocco__first_difference.png" width="260"/>
 <em>morocco - </em>
 
+<img src="./figures/forecast_maxhorizon_7_namibia__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_namibia_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_namibia__first_difference.png" width="260"/>
+<em>namibia - </em>
+
 <img src="./figures/forecast_maxhorizon_7_nepal__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_nepal_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_nepal__first_difference.png" width="260"/>
 <em>nepal - </em>
 

@@ -3,7 +3,7 @@ set verbose off
 
 # SETTINGS
 #==========
-string DIR_WORK = "" 		# <SET_PATH_HERE> e.g. "/home/git_project"
+string DIR_WORK = "/home/at/git/covid_19_forecast" #"" 		# <SET_PATH_HERE> e.g. "/home/git_project"
 string DATA_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
 string INITIAL_DATE = "2020-01-22"			# 1st available observation of CSSE dataset
 scalar MAX_HORIZON = 7						# multi-step OoS forecast horizon
@@ -39,11 +39,7 @@ scalar N = $nobs					# cross-sectional dimension
 scalar T = time_dimension(dataset)	# time dimension
 
 # Add future observations + stack data set + define panel
-list newobs = add_future_observations(dataset, MAX_HORIZON)
-list L_ALL = v*
-list L_NONEMPTY = get_non_empty_series(L_ALL)
-list L_DROP = L_ALL - L_NONEMPTY
-delete L_DROP --force
+list newobs_series = add_future_observations(dataset, MAX_HORIZON)
 list L = v*
 series confirmed_cases = stack(L, $nobs)		# yields stacked cross-section dataset
 delete L --force
@@ -57,7 +53,7 @@ series province = fill_panel_gaps_of_constant(ProvinceState)
 strings country_names = get_distinct_names(CountryRegion)
 strings province_names = get_distinct_names(ProvinceState)
 
-# attach names to series
+# attach country + province names to series
 stringify(country, country_names)
 stringify(province, province_names)
 
@@ -90,7 +86,6 @@ boxplot log_confirmed_cases unit --factorized \
 
 #gnuplot cases_confirmed non_zero_regions \
 #  --time-series --with-lines --output=display
-
 
 # Expost: Compute ARIMA based forecasts for each country-province combination
 #============================================================================
@@ -156,7 +151,7 @@ loop i=min(unit)..max(unit) --quiet
     setobs 7 @INITIAL_DATE --time-series
 
     string country_name = strvals(country)[values(country)]
-    if sum(ok(province))	# for some countries data on province level not available
+    if sum(ok(province))	# for some countries data on province level are not available
         string province_name = strvals(province)[values(province)]
     else
         string province_name = ""
@@ -169,7 +164,7 @@ loop i=min(unit)..max(unit) --quiet
         printf "Start forecasting for:\n\
           country '%s' and province '%s'\n", country_name, province_name
 
-        # Out-of-sample analysis + plot multistep  interval forecasts
+        # Out-of-sample analysis + plot multistep interval forecasts
         string model_properties = ""
         list FC = do_forecast(confirmed_cases, , \
           ARIMA_P, ARIMA_D, ARIMA_Q, MAX_HORIZON, &model_properties)
