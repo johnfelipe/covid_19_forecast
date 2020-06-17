@@ -322,6 +322,9 @@
 <img src="./figures/forecast_maxhorizon_7_gabon__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_gabon_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_gabon__first_difference.png" width="260"/>
 <em>gabon - </em>
 
+<img src="./figures/forecast_maxhorizon_7_gambia__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_gambia_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_gambia__first_difference.png" width="260"/>
+<em>gambia - </em>
+
 <img src="./figures/forecast_maxhorizon_7_georgia__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_georgia_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_georgia__first_difference.png" width="260"/>
 <em>georgia - </em>
 
