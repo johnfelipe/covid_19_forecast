@@ -13,6 +13,9 @@
 <img src="./figures/forecast_maxhorizon_7_angola__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_angola_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_angola__first_difference.png" width="260"/>
 <em>angola - </em>
 
+<img src="./figures/forecast_maxhorizon_7_antigua_and_barbuda__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_antigua_and_barbuda_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_antigua_and_barbuda__first_difference.png" width="260"/>
+<em>antigua_and_barbuda - </em>
+
 <img src="./figures/forecast_maxhorizon_7_argentina__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_argentina_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_argentina__first_difference.png" width="260"/>
 <em>argentina - </em>
 
