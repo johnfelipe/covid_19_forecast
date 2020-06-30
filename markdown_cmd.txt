@@ -541,6 +541,9 @@
 <img src="./figures/forecast_maxhorizon_7_serbia__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_serbia_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_serbia__first_difference.png" width="260"/>
 <em>serbia - </em>
 
+<img src="./figures/forecast_maxhorizon_7_seychelles__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_seychelles_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_seychelles__first_difference.png" width="260"/>
+<em>seychelles - </em>
+
 <img src="./figures/forecast_maxhorizon_7_singapore__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_singapore_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_singapore__first_difference.png" width="260"/>
 <em>singapore - </em>
 
