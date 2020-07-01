@@ -670,6 +670,9 @@
 <img src="./figures/forecast_maxhorizon_7_burma__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_burma_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_burma__first_difference.png" width="260"/>
 <em>burma - </em>
 
+<img src="./figures/forecast_maxhorizon_7_united_kingdom_turks_and_caicos_islands_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_united_kingdom_turks_and_caicos_islands.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_united_kingdom_turks_and_caicos_islands_first_difference.png" width="260"/>
+<em>united_kingdom - turks_and_caicos_islands</em>
+
 <img src="./figures/forecast_maxhorizon_7_botswana__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_botswana_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_botswana__first_difference.png" width="260"/>
 <em>botswana - </em>
 
