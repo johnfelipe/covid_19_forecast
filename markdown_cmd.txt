@@ -28,6 +28,9 @@
 <img src="./figures/forecast_maxhorizon_7_australia_new_south_wales_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_australia_new_south_wales.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_australia_new_south_wales_first_difference.png" width="260"/>
 <em>australia - new_south_wales</em>
 
+<img src="./figures/forecast_maxhorizon_7_australia_northern_territory_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_australia_northern_territory.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_australia_northern_territory_first_difference.png" width="260"/>
+<em>australia - northern_territory</em>
+
 <img src="./figures/forecast_maxhorizon_7_australia_queensland_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_australia_queensland.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_australia_queensland_first_difference.png" width="260"/>
 <em>australia - queensland</em>
 
@@ -699,5 +702,8 @@
 
 <img src="./figures/forecast_maxhorizon_7_tajikistan__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_tajikistan_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_tajikistan__first_difference.png" width="260"/>
 <em>tajikistan - </em>
+
+<img src="./figures/forecast_maxhorizon_7_lesotho__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_lesotho_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_lesotho__first_difference.png" width="260"/>
+<em>lesotho - </em>
 
 
