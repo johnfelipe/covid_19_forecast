@@ -655,6 +655,9 @@
 <img src="./figures/forecast_maxhorizon_7_syria__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_syria_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_syria__first_difference.png" width="260"/>
 <em>syria - </em>
 
+<img src="./figures/forecast_maxhorizon_7_belize__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_belize_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_belize__first_difference.png" width="260"/>
+<em>belize - </em>
+
 <img src="./figures/forecast_maxhorizon_7_libya__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_libya_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_libya__first_difference.png" width="260"/>
 <em>libya - </em>
 
