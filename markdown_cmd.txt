@@ -124,6 +124,9 @@
 <img src="./figures/forecast_maxhorizon_7_canada_ontario_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_canada_ontario.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_canada_ontario_first_difference.png" width="260"/>
 <em>canada - ontario</em>
 
+<img src="./figures/forecast_maxhorizon_7_canada_prince_edward_island_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_canada_prince_edward_island.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_canada_prince_edward_island_first_difference.png" width="260"/>
+<em>canada - prince_edward_island</em>
+
 <img src="./figures/forecast_maxhorizon_7_canada_quebec_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_canada_quebec.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_canada_quebec_first_difference.png" width="260"/>
 <em>canada - quebec</em>
 
