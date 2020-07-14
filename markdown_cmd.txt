@@ -535,6 +535,9 @@
 <img src="./figures/forecast_maxhorizon_7_rwanda__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_rwanda_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_rwanda__first_difference.png" width="260"/>
 <em>rwanda - </em>
 
+<img src="./figures/forecast_maxhorizon_7_saint_vincent_and_the_grenadines__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_saint_vincent_and_the_grenadines_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_saint_vincent_and_the_grenadines__first_difference.png" width="260"/>
+<em>saint_vincent_and_the_grenadines - </em>
+
 <img src="./figures/forecast_maxhorizon_7_san_marino__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_san_marino_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_san_marino__first_difference.png" width="260"/>
 <em>san_marino - </em>
 
