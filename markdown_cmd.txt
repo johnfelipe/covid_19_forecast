@@ -508,6 +508,9 @@
 <img src="./figures/forecast_maxhorizon_7_panama__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_panama_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_panama__first_difference.png" width="260"/>
 <em>panama - </em>
 
+<img src="./figures/forecast_maxhorizon_7_papua_new_guinea__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_papua_new_guinea_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_papua_new_guinea__first_difference.png" width="260"/>
+<em>papua_new_guinea - </em>
+
 <img src="./figures/forecast_maxhorizon_7_paraguay__expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_paraguay_.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_paraguay__first_difference.png" width="260"/>
 <em>paraguay - </em>
 
