@@ -3,8 +3,7 @@ set verbose off
 
 # SETTINGS
 #==========
-#string DIR_WORK = "/home/pi/git/covid_19_forecast" 	#"" 		# <SET_PATH_HERE> e.g. "/home/git_project"
-string DIR_WORK = "/home/at/git/covid_19_forecast"
+string DIR_WORK = "/home/pi/git/covid_19_forecast" 	#"" 		# <SET_PATH_HERE> e.g. "/home/git_project"
 string DATA_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
 string INITIAL_DATE = "2020-01-22"			# 1st available observation of CSSE dataset
 scalar MINIMUM_CASES = 30					# Minimal number of confirmed cases at latest observation for consideration
@@ -64,10 +63,7 @@ scalar T = time_dimension(dataset)	# time dimension
 list newobs_series = add_future_observations(dataset, ARIMA_OPTS.MAX_HORIZON)
 list L = v*
 catch series confirmed_cases = stack(L, $nobs)		# yields stacked cross-section dataset
-if $error
-	print "stack() command failed. You need to update to gretl version 2020b."
-	stop
-endif
+errorif($error == TRUE, "stack() command failed. You need to update at least to gretl version 2020b.")
 delete L --force
 setobs N 1:1 --stacked-cross-section
 
