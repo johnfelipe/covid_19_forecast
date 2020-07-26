@@ -182,10 +182,19 @@ function list arima_forecast (const series y,
     smpl ; -ARIMA_OPTS.MAX_HORIZON
 
     bundle B = auto_arima(y, xlist, ARIMA_OPTS)
-    string arima_cmd = get_auto_arima_command(B, ARIMA_OPTS.INFO_CRIT, 1)
-    print arima_cmd
 
-    matrix params = get_auto_arima_parameters(B, ARIMA_OPTS.INFO_CRIT, 1)
+    # Execute actual estimation: Just to make sure that estimation for the n-th best model does not fail, we loop over the first 10 best models and return the first model for which maximum-likeliihood estimations works.
+    scalar nth_best_model = NA
+    loop i=1..10
+        nth_best_model = $i
+        string arima_cmd = get_auto_arima_command(B, ARIMA_OPTS.INFO_CRIT, $i)
+        catch @arima_cmd --quiet
+        if $error == 0
+            break
+        endif
+    endloop
+
+    matrix params = get_auto_arima_parameters(B, ARIMA_OPTS.INFO_CRIT, nth_best_model)
     if cols(params) == 6
         model_properties = sprintf("ARIMA(%d,%d,%d|%d,%d,%d)", \
             params[1], params[2], params[3], params[4], params[5], params[6])
@@ -193,8 +202,6 @@ function list arima_forecast (const series y,
         model_properties = sprintf("ARIMA(%d,%d,%d)", params[1], params[2], params[3])
     endif
 
-    # Execute actual estimation
-    @arima_cmd --quiet
 
     catch fcast --out-of-sample --dynamic --quiet
     smpl full
