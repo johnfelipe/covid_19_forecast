@@ -63,7 +63,10 @@ scalar T = time_dimension(dataset)	# time dimension
 list newobs_series = add_future_observations(dataset, ARIMA_OPTS.MAX_HORIZON)
 list L = v*
 catch series confirmed_cases = stack(L, $nobs)		# yields stacked cross-section dataset
-errorif($error == TRUE, "stack() command failed. You need to update at least to gretl version 2020b.")
+if $error
+	print "stack() command failed. You need to update to gretl version 2020b."
+	stop
+endif
 delete L --force
 setobs N 1:1 --stacked-cross-section
 
