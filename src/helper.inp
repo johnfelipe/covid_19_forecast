@@ -1,13 +1,13 @@
 function list get_non_empty_series (const list L)
     /* Get list of series with at least on valid observation. */
-    
-    list R = null    
+
+    list R = null
     loop foreach i L
         if nobs(L.$i) > 0
             R += $i
-        endif        
+        endif
     endloop
-    
+
     return R
 end function
 
@@ -150,8 +150,7 @@ function list meanmodel_forecast (const series y,
                                   const list xlist,
                                   const int MAX_HORIZON[1::],
                                   string *model_properties)
-    /* Estimate simple mean model plus optional exogenous
-    and forecast out-of-sample. */
+    /* Estimate simple mean model plus optional exogenous and forecast out-of-sample. */
 
     list FC = null
     model_properties = sprintf("conditional mean model")
@@ -175,23 +174,27 @@ end function
 
 function list arima_forecast (const series y,
                               const list xlist,
-                              const int p[0::],
-                              const int d[0::],
-                              const int q[0::],
-                              const int MAX_HORIZON[1::],
+                              const bundle ARIMA_OPTS,
                               string *model_properties)
-    /* Estimate arima type of model and forecast
-    out-of-sample. */
+    /* Search for best ARIMA model by means of the auto_arima package and forecast out-of-sample. */
 
     list FC = null
-    model_properties = sprintf("ARIMA(%d,%d,%d)", p, d, q)
-    smpl ; -MAX_HORIZON
+    smpl ; -ARIMA_OPTS.MAX_HORIZON
 
-    catch arima p d q; y xlist --quiet
-    if $error
-        printf "\nError: Failed to estimate %s.\n", model_properties
-        return FC
+    bundle B = auto_arima(y, xlist, ARIMA_OPTS)
+    string arima_cmd = get_auto_arima_command(B, ARIMA_OPTS.INFO_CRIT, 1)
+    print arima_cmd
+
+    matrix params = get_auto_arima_parameters(B, ARIMA_OPTS.INFO_CRIT, 1)
+    if cols(params) == 6
+        model_properties = sprintf("ARIMA(%d,%d,%d|%d,%d,%d)", \
+            params[1], params[2], params[3], params[4], params[5], params[6])
+    else
+        model_properties = sprintf("ARIMA(%d,%d,%d)", params[1], params[2], params[3])
     endif
+
+    # Execute actual estimation
+    @arima_cmd --quiet
 
     catch fcast --out-of-sample --dynamic --quiet
     smpl full
@@ -227,10 +230,7 @@ end function
 
 function list do_forecast (const series y,
                            const list xlist[null],
-                           const int p[0::],
-                           const int d[0::],
-                           const int q[0::],
-                           const int MAX_HORIZON[1::],
+                           const bundle ARIMA_OPTS,
                            string *model_properties)
     /* Set training and test set, estimate model and compute
        interval forecasts. We will try another (simpler model) in
@@ -245,25 +245,16 @@ function list do_forecast (const series y,
     endif
 
     # Check whether the target variable has zero variance over the training set
-    list FC = historical_avg_forecast(y, MAX_HORIZON, &model_properties)
+    list FC = historical_avg_forecast(y, ARIMA_OPTS.MAX_HORIZON, &model_properties)
 
     # ARIMA type
     if nelem(FC) == 0
-        list FC = arima_forecast(y, xlist, p, d, q, MAX_HORIZON, &model_properties)
-    endif
-    if nelem(FC) == 0
-        list FC = arima_forecast(y, xlist, 0, 2, q, MAX_HORIZON, &model_properties)
-    endif
-    if nelem(FC) == 0
-        list FC = arima_forecast(y, xlist, 1, 1, 0, MAX_HORIZON, &model_properties)
-    endif
-    if nelem(FC) == 0
-        list FC = arima_forecast(y, xlist, 0, 1, 0, MAX_HORIZON, &model_properties)
+        list FC = arima_forecast(y, xlist, ARIMA_OPTS, &model_properties)
     endif
 
     # Return simple mean model
     if nelem(FC) == 0
-        list FC = meanmodel_forecast(y, xlist, MAX_HORIZON, &model_properties)
+        list FC = meanmodel_forecast(y, xlist, ARIMA_OPTS.MAX_HORIZON, &model_properties)
     endif
 
     return FC
@@ -303,7 +294,7 @@ function list get_diff_series_for_plot (const series y,
     list L = d_y d_fc
 
     return L
-end function 
+end function
 
 
 function void plot_change_in_y_and_fc (const series y,
