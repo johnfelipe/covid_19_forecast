@@ -19,7 +19,9 @@ https://github.com/atecon/auto_arima
 
 The code executes a brute-force search for the 'best' ARIMA model specification by optimizing the corrected Akaike information criteria ("aicc"). The following parameter space -- **implying 120 different ARIMA models in total** -- is evaluated:
 
-**Default ARIMA parameter space**
+**Default ARIMA parameter space**:
+
+```
 string ARIMA_OPTS.INFO_CRIT = "aicc"		# information criteria to optimize
 scalar ARIMA_OPTS.min_p = 0					# autoregressive (AR) order
 scalar ARIMA_OPTS.max_p = 4                 # autoregressive (AR) order
@@ -34,6 +36,7 @@ scalar ARIMA_OPTS.min_D = 0                 # seasonal differencing order
 scalar ARIMA_OPTS.max_D = 0                 # seasonal differencing order
 scalar ARIMA_OPTS.min_Q = 0                 # seasonal MA order
 scalar ARIMA_OPTS.max_Q = 1                 # seasonal MA order
+```
 
 ## Forecasting method
 We compute out-of-sample multi-period interval forecasts. The multi-period forecast is recursively computed. Per default the 90 % forecast (Gaussian) interval will be shown as well.
