@@ -475,6 +475,9 @@
 <img src="./figures/forecast_maxhorizon_7_netherlands_aruba_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_netherlands_aruba.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_netherlands_aruba_first_difference.png" width="260"/>
 <em>netherlands - aruba</em>
 
+<img src="./figures/forecast_maxhorizon_7_netherlands_curacao_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_netherlands_curacao.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_netherlands_curacao_first_difference.png" width="260"/>
+<em>netherlands - curacao</em>
+
 <img src="./figures/forecast_maxhorizon_7_netherlands_sint_maarten_expost.png" width="260"/>            <img src="./figures/forecast_maxhorizon_7_netherlands_sint_maarten.png" width="260"/> <img src="./figures/forecast_maxhorizon_7_netherlands_sint_maarten_first_difference.png" width="260"/>
 <em>netherlands - sint_maarten</em>
 
